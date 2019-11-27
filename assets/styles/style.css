@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container-desktop-navbars {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.black-list-child,
+.white-left-list-child, 
+.white-right-list-child {
+list-style: none;
+display: inline;
+}
+
+.black-navbar {
+    background: black;
+}
+
+.white-navbar {
+    background: white;
+}
+
+.black-left-list,
+.black-right-list,
+.white-left-list,
+.white-right-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* nav-bar for desktop
+nav-bars: 60% / 40%
+black nav-bar: 2 list childs, justify space-between
+white nav-bar: 2 list childs, justify space-between  */
+@media (min-width: 1102px) {
+
+}
+
+/* 2 nav-bars without TNW logo 
+   2 list left child has only the search logo  */
+   @media (min-width: 1012px) and (max-width: 1101px) {
+
+}
+
+/* 
+Last use of larger nav-bars 
+*/
+@media (min-width: 757px) and (max-width: 1011px) {
+
+}
+
+/* bottom right child  hour and search icon appears */
+@media (min-width: 811px) and (max-width: 1011px) {
+
+}
+
+/* start of the larger nav-bars
+ the right top nav-bar dessapears
+ the right bottom nav-bar dessapears  */
+ @media (min-width: 756px) and (max-width:811px) {
+
+}
+
+
+
+
+/*
+This is a different nav-bar, made it just for smallest -screens
+black-nav-bar dissapears
+ nav-bar: logo fixed size, search-box 2fr hamburger 1fr hour fixed size 
+ main: 1fr. flew-column margin, flex-end, flex-start
+ Latest-news: flex-wrap with fixed width*/
+ @media (min-width: 468px) and (max-width: 755px) {
+
+}
+
+/*
+This is a different nav-bar, made it just for smallest -screens
+smallest screen-size breakpoint
+nav-bar: logo fixed size, search-box(hour fixed-size) 2fr search-icon 1fr hamburger 1fr
+main: 1fr. flew-column margin, flex-end, flex-start
+ */
+@media (max-width: 467px) {
+
+}
+
+
+
+
+
+
+
+
+
+
