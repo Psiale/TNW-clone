@@ -135,7 +135,7 @@ background-position: 0 0;
     background-size: cover;
     bottom: 0;
     left: 0;
-    mix-blend-mode: lighten;
+    mix-blend-mode: normal;
     position: absolute;
     right: 0;
     top: 0;
@@ -371,8 +371,7 @@ black-nav-bar dissapears
         margin: 2% 2% 2% 0;
         grid-template-columns: 100%;
         grid-template-rows: auto;
-        height: 430px;
-        max-height: 600px;
+        height: 400px;
     }
 
     .big-article-container {
