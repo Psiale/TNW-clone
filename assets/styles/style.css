@@ -40,7 +40,7 @@ body {
    flex-flow: wrap row;
 }
 
-.px50-fs {
+.title-heading-text {
     font-size: 50px;
 }
 
@@ -48,7 +48,7 @@ body {
     font-size: 11px;
 }
 
-.px-22-fs {
+.small-article-text {
     font-size: 22px;
 }
 
@@ -122,6 +122,8 @@ text-decoration: none;
     gap: 10px;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-template-areas: big small-1
+                         big small-2;
 }
 
 .orange-cover {
@@ -243,6 +245,13 @@ white nav-bar: 2 list childs, justify space-between  */
 
 /* 2 nav-bars without TNW logo 
    2 list left child has only the search logo  */
+
+@media (min-height: 425px ) {
+    .title-heading-text {
+        font-size: 45px;
+    }
+}
+   
 @media (min-width: 1022px) {
     .media-1022px{
         display: none;
@@ -278,6 +287,10 @@ white nav-bar: 2 list childs, justify space-between  */
     }
     .small-child {
         bottom: 35px;
+    }
+
+    .title-heading-text {
+        font-size: 38px;
     }
 }
 
@@ -350,6 +363,20 @@ black-nav-bar dissapears
     height: 2px;
     margin-top: 4px;
     width: 20px;
+    }
+
+    .grid-main-container{
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        max-height: 400px;
+    }
+
+    .big-article-container {
+        grid-row: 1;
+    }
+
+    .title-heading-text, .small-article-text {
+        font-size: 14px;
     }
 
 
