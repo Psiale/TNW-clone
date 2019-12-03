@@ -6,6 +6,10 @@ body {
     font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
     font-size: 13px;
 }
+.category-heading {
+    font-size: 14px;
+}
+
 
 .bcg-black {
     background-color: black;
@@ -19,16 +23,33 @@ body {
     color: #ff4422;
 }
 
-.color-light-black {
-    color: #555;
+.color-white {
+    color: hsla(0,0%,100%,.6);
 }
 
 .color-white {
     color: white;
 }
 
+.title-heading {
+   font-family: Avalon,sans-serif; 
+   font-weight: 900;
+   letter-spacing: -.015em;
+   height: 100%;
+   display: flex;
+   flex-flow: wrap row;
+}
+
+.px50-fs {
+    font-size: 50px;
+}
+
 .px11-fs {
     font-size: 11px;
+}
+
+.px-22-fs {
+    font-size: 22px;
 }
 
 .desktop-logo{
@@ -92,6 +113,126 @@ padding: 18px 9px 0;
 text-decoration: none;
 }
 
+.grid-main-container {
+    margin-left: .5%;
+    width: 99vw;
+    height: 75vh;
+    display: grid;
+    padding-top: 8px;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.orange-cover {
+    transition: background-color .4s ease;
+    background:
+rgba(0,0,0,.25) url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png');
+background-position: 0 0;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    mix-blend-mode: lighten;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 4;
+}
+
+.black-cover {
+    background: 
+    rgba(0,0,0,.25) url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png');
+    background-position: 0 0;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    mix-blend-mode: hard-light;
+    position: absolute;
+    right: 0;    
+    bottom: 0;
+    z-index: 4;
+}
+
+.big-article-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:  
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Snag_186bf0c3-796x415.png')
+     no-repeat;
+    background-size: cover;
+    grid-row: 1 / span 2;
+    opacity: 1;
+}
+.small-article {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: self-end;
+}
+
+.small-article-container-1 {
+
+    background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/s-copy-796x417.jpg') no-repeat;
+    background-size: cover;
+    }
+
+.small-child {
+    position: absolute;
+    bottom: 10px;
+    height: 50%;
+    margin: 2px 0 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.small-article-container-2 {
+    background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/bnoiitc-boyart-cryptovoxels-blockchain-art-work-museum-cryptoart-bitcoin-796x448.png') no-repeat;
+    background-size: cover;
+}
+
+
+
+.big-child-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-child-1, .big-child-2 {
+    margin: 1% 0 0 2%;
+}
+
+.b-art-date {
+    margin-right: 4%;
+}
+
+.big-child-2 {
+    position: absolute;
+    bottom: 10px;
+}
+
+.article-titles > * {
+    padding: 0;
+    border: 0;
+    margin: 0 0 0.5% 0;
+}
+
+.article-info {
+    margin-bottom: 3%;
+}
+
+
+.b-art-icon {
+    height: 70%;
+}
+
+.b-art-icon, .b-art-date, .big-child-2, .small-child{
+    z-index: 10;
+}
+
 
 
 /* nav-bar for desktop
@@ -106,6 +247,8 @@ white nav-bar: 2 list childs, justify space-between  */
     .media-1022px{
         display: none;
     }
+
+    
 }
 
 @media (min-width: 770px) and (max-width: 1022px) {
@@ -133,6 +276,9 @@ white nav-bar: 2 list childs, justify space-between  */
     width: auto;
     margin-left: 8%;
     }
+    .small-child {
+        bottom: 35px;
+    }
 }
 
 /* start of the larger nav-bars
@@ -154,11 +300,11 @@ black-nav-bar dissapears
         display: none;
     }
 
+
     .grid-mobile-navbar-container {
         display: grid;
         grid-template-columns: 100px auto 48px 48px;
         width: 100vw;
-        height: 150px;
         gap: 0;
     }
 
@@ -190,8 +336,8 @@ black-nav-bar dissapears
     }
 
     .tnw-white-logo {
-        width: 70%;
-        height: 70%;
+        width: 60%;
+        height: 60%;
     }
     .g-nav-icon-hamburger {
         display: flex;
@@ -209,12 +355,11 @@ black-nav-bar dissapears
 
 }
 
-/*
-This is a different nav-bar, made it just for smallest -screens
-smallest screen-size breakpoint
-nav-bar: logo fixed size, search-box(hour fixed-size) 2fr search-icon 1fr hamburger 1fr
-main: 1fr. flew-column margin, flex-end, flex-start
- */
+
+
+
+
+
 
 
 
