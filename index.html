@@ -1,256 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
     <title>TNW Clone</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <header>
-            <div class="media468px color-white desktop-logo"> <img class="tnw-white-logo" src="assets/images/tnw-white.svg" alt=""> </div>
-        <div class="media468px flex-container-desktop-navbars">
-            <div class=" bcg-black black-navbar flex-item">
-                <ul class="black-left-list">
-                    <li class="black-list-child"><a class="link-navbar" href="#">News</a></li>
-                    <li class="black-list-child"><a class="link-navbar" href="#">Events &#x2B07; </a></li>
-                    <li class="black-list-child"><a class="link-navbar" href="#">Business &#x2B07;</a></li>
-                    <li class="black-list-child"><a class="link-navbar" href="#">AMAs</a></li>
-                    <li class="black-list-child"><a class="link-navbar" href="#">Spaces</a></li>
-                    <li class="black-list-child"><a class="link-navbar" href="#">Terms & Conditions</a></li>
-                </ul>
-                <ul class=" media756px black-right-list">
-                    <li class="black-list-child"><a class="link-navbar" href="#">About</a></li>
-                    <li class="black-list-child"><a class="link-navbar" href="#">Team</a></li>
-                    <li class="black-list-child"><a class="link-navbar" href="#">Advertise</a></li>
-                    <li class="black-list-child"><a class="link-navbar" href="#">Jobs</a></li>
-                    <li class="black-list-child"><a class="link-navbar" href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class=" bcg-white white-navbar flex-item">
-                <ul class="white-left-list">
-                    <li class="white-left-list-child"><a class="white-link-navbar" href="#">LATEST</a></li>
-                    <li class="white-left-list-child"><a class="white-link-navbar" href="#">HARD FORK</a></li>
-                    <li class="white-left-list-child"><a class="white-link-navbar" href="#">PLUGGED</a></li>
-                    <li class="white-left-list-child"><a class="white-link-navbar" href="#">FUNDAMENTALS</a></li>
-                    <li class="white-left-list-child"><a class="white-link-navbar" href="#">WORK 2030</a></li>
-                </ul>
-                <ul class="white-right-list">
-                    <li class="white-right-list-child"><a class="search-icon right-list-items"><img src="assets/images/search-24px.svg" alt="Search icon"></a></li>
-                </ul>
-            </div>
+      <div class="media468px color-white desktop-logo">
+        <img class="tnw-white-logo" src="assets/images/tnw-white.svg" alt="" />
+      </div>
+      <div class="media468px flex-container-desktop-navbars">
+        <div class=" bcg-black black-navbar flex-item">
+          <ul class="black-left-list">
+            <li class="black-list-child">
+              <a class="link-navbar" href="#">News</a>
+            </li>
+            <li class="black-list-child">%
+              <a class="link-navbar" href="#">Events &#x2B07; </a>
+            </li>
+            <li class="black-list-child">
+              <a class="link-navbar" href="#">Business &#x2B07;</a>
+            </li>
+            <li class="black-list-child">
+              <a class="link-navbar" href="#">AMAs</a>
+            </li>
+            <li class="black-list-child">
+              <a class="link-navbar" href="#">Spaces</a>
+            </li>
+            <li class="black-list-child">
+              <a class="link-navbar" href="#">Terms & Conditions</a>
+            </li>
+          </ul>
+          <ul class=" media756px black-right-list">
+            <li class="black-list-child">
+              <a class="link-navbar" href="#">About</a>
+            </li>
+            <li class="black-list-child">
+              <a class="link-navbar" href="#">Team</a>
+            </li>
+            <li class="black-list-child">
+              <a class="link-navbar" href="#">Advertise</a>
+            </li>
+            <li class="black-list-child">
+              <a class="link-navbar" href="#">Jobs</a>
+            </li>
+            <li class="black-list-child">
+              <a class="link-navbar" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
+        <div class=" bcg-white white-navbar flex-item">
+          <ul class="white-left-list">
+            <li class="white-left-list-child">
+              <a class="white-link-navbar" href="#">LATEST</a>
+            </li>
+            <li class="white-left-list-child">
+              <a class="white-link-navbar" href="#">HARD FORK</a>
+            </li>
+            <li class="white-left-list-child">
+              <a class="white-link-navbar" href="#">PLUGGED</a>
+            </li>
+            <li class="white-left-list-child">
+              <a class="white-link-navbar" href="#">FUNDAMENTALS</a>
+            </li>
+            <li class="white-left-list-child">
+              <a class="white-link-navbar" href="#">WORK 2030</a>
+            </li>
+          </ul>
+          <ul class="white-right-list">
+            <li class="white-right-list-child">
+              <a class="search-icon right-list-items"
+                ><img src="assets/images/search-24px.svg" alt="Search icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-        <div class="media-1022px media-770 grid-mobile-navbar-container">
-            <div class=" grid-nav-item g-nav-logo"> 
-                <img class="tnw-white-logo" src="assets/images/tnw-white.svg" alt=""> </div>
-            <div class="bcg-white grid-nav-item g-nav-search-box"></div>
-            <div class="bcg-white grid-nav-item g-nav-icon-search">
-                <a class="search-icon right-list-items"><img src="assets/images/search-24px.svg"
-                     alt="Search icon"></a></div>
-            <div class=" bcg-white color-orange grid-nav-item g-nav-icon-hamburger">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>    
+      <div class="media-1022px media-770 grid-mobile-navbar-container">
+        <div class=" grid-nav-item g-nav-logo">
+          <img
+            class="tnw-white-logo"
+            src="assets/images/tnw-white.svg"
+            alt=""
+          />
+        </div>
+        <div class="bcg-white grid-nav-item g-nav-search-box"></div>
+        <div class="bcg-white grid-nav-item g-nav-icon-search">
+          <a class="search-icon right-list-items"
+            ><img src="assets/images/search-24px.svg" alt="Search icon"
+          /></a>
+        </div>
+        <div class=" bcg-white color-orange grid-nav-item g-nav-icon-hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
     </header>
 
     <main>
-        <div class="grid-main-container">
-            <div class="big-article-container">
-                <div class=" big-child-1">
-                        <div class=" media-770 media468px orange-cover"></div>
-                        <div class=" black-cover"></div>
-                    <img class=" media468px media-770 b-art-icon" src="assets/images/tnw-white.svg" alt="TNW icon">
-                    <p class=" media468px media-770  b-art-date color-white">Monday -- December 2,2019</p>
-                </div>
-                <div class="big-child-2">
-                   <div class="article-titles">
-                        <h5 class=" color-white category-heading">
-                            PLAY
-                        </h5>
-                        <h1 class=" title-heading-text color-white title-heading">
-                                Resident Evil 3 Remake cover art leaks, and it’s amazing</h1>
-                   </div>
-                    <div class=" color-white article-info">
-                        <span>by Rachel Kaser</span>
-                        <span>&#x23F0; 1 hour ago</span>
-                        <span>&#x1F34C; 6</span>
-                    </div>
-                </div>
-
+      <div class="grid-main-container">
+        <div class="big-article-container">
+          <div class=" big-child-1">
+            <div class=" media-770 media468px orange-cover"></div>
+            <div class=" black-cover"></div>
+            <img
+              class=" media468px media-770 b-art-icon"
+              src="assets/images/tnw-white.svg"
+              alt="TNW icon"
+            />
+            <p class=" media468px media-770  b-art-date color-white">
+              Monday -- December 2,2019
+            </p>
+          </div>
+          <div class="big-child-2">
+            <div class="article-titles">
+              <h5 class=" color-white category-heading">
+                PLAY
+              </h5>
+              <h1 class=" title-heading-text color-white title-heading">
+                Resident Evil 3 Remake cover art leaks, and it’s amazing
+              </h1>
             </div>
-            <div class="small-article small-article-container-1">
-                    <div class=" black-cover"></div>
-                    <div class="small-child">
-                            <div class="article-titles">
-                                 <h5 class=" color-white category-heading">
-                                     GEAR
-                                 </h5>
-                                 <h2 class=" small-article-text color-white title-heading"> We analyzed Pablo Escobar’s brother’s folding phone promo video</h2>
-                            </div>
-                             <div class=" color-white article-info">
-                                 <span>by Callum Booth</span>
-                                 <span>&#x23F0; 2 hours ago</span>
-                                 <span>&#x1F34C; 12</span>
-                             </div>
-                         </div>
+            <div class=" color-white article-info">
+              <span>by Rachel Kaser</span>
+              <span>&#x23F0; 1 hour ago</span>
+              <span>&#x1F34C; 6</span>
             </div>
-            <div class="small-article small-article-container-2">
-                    <div class=" black-cover"></div>
-                    <div class="small-child">
-                            <div class="article-titles">
-                                 <h5 class=" color-white category-heading">
-                                     INSIGHTS
-                                 </h5>
-                                 <h2 class=" small-article-text color-white title-heading"> Danish bank staff banned from buying Bitcoin with their own money — urged to dump holdings</h2>
-                            </div>
-                             <div class=" color-white article-info">
-                                 <span>by Matthew Beedham</span>
-                                 <span>&#x23F0; 4 hours ago</span>
-                                 <span>&#x1F34C; 25</span>
-                             </div>
-                         </div>
+          </div>
+        </div>
+        <div class="small-article small-article-container-1">
+          <div class=" black-cover"></div>
+          <div class="small-child">
+            <div class="article-titles">
+              <h5 class=" color-white category-heading">
+                GEAR
+              </h5>
+              <h2 class=" small-article-text color-white title-heading">
+                We analyzed Pablo Escobar’s brother’s folding phone promo video
+              </h2>
             </div>
-        </div>       
+            <div class=" color-white article-info">
+              <span>by Callum Booth</span>
+              <span>&#x23F0; 2 hours ago</span>
+              <span>&#x1F34C; 12</span>
+            </div>
+          </div>
+        </div>
+        <div class="small-article small-article-container-2">
+          <div class=" black-cover"></div>
+          <div class="small-child">
+            <div class="article-titles">
+              <h5 class=" color-white category-heading">
+                INSIGHTS
+              </h5>
+              <h2 class=" small-article-text color-white title-heading">
+                Danish bank staff banned from buying Bitcoin with their own
+                money — urged to dump holdings
+              </h2>
+            </div>
+            <div class=" color-white article-info">
+              <span>by Matthew Beedham</span>
+              <span>&#x23F0; 4 hours ago</span>
+              <span>&#x1F34C; 25</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <section >
-        <h1 class="color-orange section-titles">Latest News > </h1>
-        <div class="latest-news-container" >
-            <div class="latest-news-child">
-                <div class="ln-subchild ln-cover">
-                    <img class="img-cover" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/placeholder/bg-2.png" alt="">
-                </div>
-                <div class="ln-subchild ln-bottom">
-                    <p class="ln-subtitle">Review: The WideWheel electric scooter is a blast and has power to spare</p>
-                    <div class=" light-grey article-info">
-                
-                    <span>Napier Lopez </span> 
-                    <span>. 9 minutes ago</span>
-                </div>
-                </div>
+      <div class="latest-news-container">
+            <h1 class="color-orange section-titles">Latest News ></h1>
+        <div class="latest-news-child">
+          <div class="ln-subchild ln-cover">
+            <img
+              class="img-cover"
+              src= "assets/images/ln-1.jpg"
+              alt="Facebook employees"
+            />
+          </div>
+          <div class="ln-subchild ln-bottom">
+            <p class="ln-subtitle">
+                iPhone 11 Pro collects location data even when it shouldn't, researcher says
+            </p>
+            <div class=" light-grey article-info">
+              <span>Mix</span>
+              <span> 5 hours</span>
             </div>
+          </div>
+        </div>
 
-            <div class="latest-news-child">
-                    <div class="ln-subchild ln-cover">
-                        <img class="img-cover" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/placeholder/bg-2.png" alt="">
+        <div class="latest-news-child">
+          <div class="ln-subchild ln-cover">
+            <img
+              class="img-cover"
+              src="assets/images/ln-2.png"
+              alt="Samsung"
+            />
+          </div>
+          <div class="ln-subchild ln-bottom">
+            <p class="ln-subtitle">
+                Samsung to reportedly announce S10 and Note 10 'Lite' this month
+            </p>
+            <div class=" light-grey article-info">
+              <span>Napier Lopez </span>
+              <span> 30 minutes ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest-news-child">
+          <div class="ln-subchild ln-cover">
+            <img
+              class="img-cover"
+              src="assets/images/ln-3.png"
+              alt="DATA"
+            />
+          </div>
+          <div class="ln-subchild ln-bottom">
+            <p class="ln-subtitle">
+                DATA: Robinhood users are really bad at portfolio diversification
+            </p>
+            <div class=" light-grey article-info">
+              <span>Yaron Yitzhak </span>
+              <span> 8 hours ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest-news-child">
+          <div class="ln-subchild ln-cover">
+            <img
+              class="img-cover"
+              src="assets/images/ln-4.jpg"
+              alt="iPhone 11"
+            />
+          </div>
+          <div class="ln-subchild ln-bottom">
+            <p class="ln-subtitle">
+              iPhone 11 Pro collects location data even when it shouldn't, researchers says
+            </p>
+            <div class=" light-grey article-info">
+              <span>Mix</span>
+              <span> 8 hours ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest-news-child">
+          <div class="ln-subchild ln-cover">
+            <img
+              class="img-cover"
+              src="assets/images/ln-5.png"
+              alt="sexual assault"
+            />
+          </div>
+          <div class="ln-subchild ln-bottom">
+            <p class="ln-subtitle">
+                This new app is leveraging blockchain to help sexual assault survivors
+            </p>
+            <div class=" light-grey article-info">
+              <span>Cara Curtis </span>
+              <span> 8 hours ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest-news-child">
+          <div class="ln-subchild ln-cover">
+            <img
+              class="img-cover"
+              src="assets/images/ln-6.jpg"
+              alt="AI Asia"
+            />
+          </div>
+          <div class="ln-subchild ln-bottom">
+            <p class="ln-subtitle">
+                Regional strengths are shaping AI’s evolution in Asia, says research
+            </p>
+            <div class=" light-grey article-info">
+              <span> Binary District Journal </span>
+              <span>. 9 hours ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest-news-child">
+          <div class="ln-subchild ln-cover">
+            <img
+              class="img-cover"
+              src="assets/images/ln-7.jpg"
+              alt="North Korea"
+            />
+          </div>
+          <div class="ln-subchild ln-bottom">
+            <p class="ln-subtitle">
+              
+North Korean hackers may be behind malware distributed by cryptocurrrency trading platform
+            </p>
+            <div class=" light-grey article-info">
+              <span>Matthew Beedham </span>
+              <span> 9 hours ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest-news-child">
+          <div class="ln-subchild ln-cover">
+            <img
+              class="img-cover"
+              src="assets/images/ln-8.jpg"
+              alt="ZapReader"
+            />
+          </div>
+          <div class="ln-subchild ln-bottom">
+            <p class="ln-subtitle">
+                ZapReader can get you reading up to 3 times faster—and it's over 90% off
+            </p>
+            <div class=" light-grey article-info">
+              <span>TNW Deals </span>
+              <span> 9 hours ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section >
+            <div class="funding-section-container">
+                <div class="funding-section-titles-container">
+                      <h1 class="color-orange section-titles"> Latest funding rounds on Index.co ></h1>
+                      <div class="funding-info-container">
+                          <a href="" class="funding-info-links">
+                              <p class="color-orange">Add info</p>
+                          </a>
+                          <a href="" class="funding-info-links">
+                              <p class=" color-orange">| Get updates by email |</p>
+                          </a>
+                          <a href="" class="funding-info-links">
+                              <p class="color-orange">See more</p>
+                          </a>
+                      </div>
+                </div>
+              <div class=" fn-child">
+                <div class="ln-subchild ln-cover fn-cover">
+                    <div class=" color-white funding-titles"> Highspot</div>
+                    <img class="fn-image-1" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1157019071306616833%2FZlv7GHWa.jpg&signature=4fd2ff2343626d3a9cd4869d8b6315e2"
+                     alt="">
+                    <div class="fn-1"> <span>$75M</span>
+                    <span>Series D</span></div>
+                </div>
+                <div class="ln-subchild fn-bottom">
+<div class="fn-2">
+                    <div class="fn-invest-container" >
+                        <img class="fn-icon" src="assets/images/local_offer-24px.svg"> </img>
+                         <span> SaaS, +2 </s>
                     </div>
-                    <div class="ln-subchild ln-bottom">
-                        <p class="ln-subtitle">Review: The WideWheel electric scooter is a blast and has power to spare</p>
-                        <div class=" light-grey article-info">
-                    
-                        <span>Napier Lopez </span> 
-                        <span>. 9 minutes ago</span>
+                    <div class="fn-invest-container">
+                        <img class="fn-icon" src="assets/images/business_center-24px.svg"> </img>
+                        <span> SaaS, +2 </s>
                     </div>
+</div>
+                  <div class=" fn-3 light-grey article-info">
+                    <span>Sales Enablement Platform Highspot  </span>
+                    <span>Raises $75 Million on Pulse 2.0</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class=" fn-child">
+                  <div class="ln-subchild ln-cover fn-cover">
+                      <div class=" color-white funding-titles"> Highspot</div>
+                      <img class="fn-image-1" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1157019071306616833%2FZlv7GHWa.jpg&signature=4fd2ff2343626d3a9cd4869d8b6315e2"
+                       alt="">
+                      <div class="fn-1"> <span>$75M</span>
+                      <span>Series D</span></div>
+                  </div>
+                  <div class="ln-subchild fn-bottom">
+  <div class="fn-2">
+                      <div class="fn-invest-container" >
+                          <img class="fn-icon" src="assets/images/local_offer-24px.svg"> </img>
+                           <span> SaaS, +2 </s>
+                      </div>
+                      <div class="fn-invest-container">
+                          <img class="fn-icon" src="assets/images/business_center-24px.svg"> </img>
+                          <span> SaaS, +2 </s>
+                      </div>
+  </div>
+                    <div class=" fn-3 light-grey article-info">
+                      <span>Sales Enablement Platform Highspot  </span>
+                      <span>Raises $75 Million on Pulse 2.0</span>
                     </div>
+                  </div>
                 </div>
 
-                <div class="latest-news-child">
-                        <div class="ln-subchild ln-cover">
-                            <img class="img-cover" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/placeholder/bg-2.png" alt="">
-                        </div>
-                        <div class="ln-subchild ln-bottom">
-                            <p class="ln-subtitle">Review: The WideWheel electric scooter is a blast and has power to spare</p>
-                            <div class=" light-grey article-info">
-                        
-                            <span>Napier Lopez </span> 
-                            <span>. 9 minutes ago</span>
-                        </div>
-                        </div>
+                <div class=" fn-child">
+                    <div class="ln-subchild ln-cover fn-cover">
+                        <div class=" color-white funding-titles"> Highspot</div>
+                        <img class="fn-image-1" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1157019071306616833%2FZlv7GHWa.jpg&signature=4fd2ff2343626d3a9cd4869d8b6315e2"
+                         alt="">
+                        <div class="fn-1"> <span>$75M</span>
+                        <span>Series D</span></div>
                     </div>
-
-                    <div class="latest-news-child">
-                            <div class="ln-subchild ln-cover">
-                                <img class="img-cover" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/placeholder/bg-2.png" alt="">
-                            </div>
-                            <div class="ln-subchild ln-bottom">
-                                <p class="ln-subtitle">Review: The WideWheel electric scooter is a blast and has power to spare</p>
-                                <div class=" light-grey article-info">
-                            
-                                <span>Napier Lopez </span> 
-                                <span>. 9 minutes ago</span>
-                            </div>
-                            </div>
+                    <div class="ln-subchild fn-bottom">
+    <div class="fn-2">
+                        <div class="fn-invest-container" >
+                            <img class="fn-icon" src="assets/images/local_offer-24px.svg"> </img>
+                             <span> SaaS, +2 </s>
                         </div>
+                        <div class="fn-invest-container">
+                            <img class="fn-icon" src="assets/images/business_center-24px.svg"> </img>
+                            <span> SaaS, +2 </s>
+                        </div>
+    </div>
+                      <div class=" fn-3 light-grey article-info">
+                        <span>Sales Enablement Platform Highspot  </span>
+                        <span>Raises $75 Million on Pulse 2.0</span>
+                      </div>
+                    </div>
+                  </div>
 
-                        <div class="latest-news-child">
-                                <div class="ln-subchild ln-cover">
-                                    <img class="img-cover" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/placeholder/bg-2.png" alt="">
-                                </div>
-                                <div class="ln-subchild ln-bottom">
-                                    <p class="ln-subtitle">Review: The WideWheel electric scooter is a blast and has power to spare</p>
-                                    <div class=" light-grey article-info">
-                                
-                                    <span>Napier Lopez </span> 
-                                    <span>. 9 minutes ago</span>
-                                </div>
-                                </div>
-                            </div>
-
-                            <div class="latest-news-child">
-                                    <div class="ln-subchild ln-cover">
-                                        <img class="img-cover" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/placeholder/bg-2.png" alt="">
-                                    </div>
-                                    <div class="ln-subchild ln-bottom">
-                                        <p class="ln-subtitle">Review: The WideWheel electric scooter is a blast and has power to spare</p>
-                                        <div class=" light-grey article-info">
-                                    
-                                        <span>Napier Lopez </span> 
-                                        <span>. 9 minutes ago</span>
-                                    </div>
-                                    </div>
-                                </div>
-
-                                <div class="latest-news-child">
-                                        <div class="ln-subchild ln-cover">
-                                            <img class="img-cover" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/placeholder/bg-2.png" alt="">
-                                        </div>
-                                        <div class="ln-subchild ln-bottom">
-                                            <p class="ln-subtitle">Review: The WideWheel electric scooter is a blast and has power to spare</p>
-                                            <div class=" light-grey article-info">
-                                        
-                                            <span>Napier Lopez </span> 
-                                            <span>. 9 minutes ago</span>
-                                        </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="latest-news-child">
-                                            <div class="ln-subchild ln-cover">
-                                                <img class="img-cover" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/placeholder/bg-2.png" alt="">
-                                            </div>
-                                            <div class="ln-subchild ln-bottom">
-                                                <p class="ln-subtitle">Review: The WideWheel electric scooter is a blast and has power to spare</p>
-                                                <div class=" light-grey article-info">
-                                            
-                                                <span>Napier Lopez </span> 
-                                                <span>. 9 minutes ago</span>
-                                            </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="latest-news-child">
-                                                <div class="ln-subchild ln-cover">
-                                                    <img class="img-cover" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/placeholder/bg-2.png" alt="">
-                                                </div>
-                                                <div class="ln-subchild ln-bottom">
-                                                    <p class="ln-subtitle">Review: The WideWheel electric scooter is a blast and has power to spare</p>
-                                                    <div class=" light-grey ln-info article-info">
-                                                
-                                                    <span>Napier Lopez </span> 
-                                                    <span>. 9 minutes ago</span>
-                                                </div>
-                                                </div>
-                                            </div>
-        </div>
-        
+                  <div class=" fn-child">
+                      <div class="ln-subchild ln-cover fn-cover">
+                          <div class=" color-white funding-titles"> Highspot</div>
+                          <img class="fn-image-1" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1157019071306616833%2FZlv7GHWa.jpg&signature=4fd2ff2343626d3a9cd4869d8b6315e2"
+                           alt="">
+                          <div class="fn-1"> <span>$75M</span>
+                          <span>Series D</span></div>
+                      </div>
+                      <div class="ln-subchild fn-bottom">
+      <div class="fn-2">
+                          <div class="fn-invest-container" >
+                              <img class="fn-icon" src="assets/images/local_offer-24px.svg"> </img>
+                               <span> SaaS, +2 </s>
+                          </div>
+                          <div class="fn-invest-container">
+                              <img class="fn-icon" src="assets/images/business_center-24px.svg"> </img>
+                              <span> SaaS, +2 </s>
+                          </div>
+      </div>
+                        <div class=" fn-3 light-grey article-info">
+                          <span>Sales Enablement Platform Highspot  </span>
+                          <span>Raises $75 Million on Pulse 2.0</span>
+                        </div>
+                      </div>
+                    </div>
+              </div>
     </section>
 
-
-
-</body>
+  </body>
 </html>
