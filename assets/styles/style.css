@@ -393,6 +393,63 @@ background-position: 0 0;
     justify-content: space-around;
     flex-direction: column;
 }
+
+.other-sections-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.os-child {
+    width: calc(33% - 15px);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.os-s1 {
+    height: unset;
+}
+
+.os-s2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    background: url(../images/os-img-1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.os-s2-child {
+    padding: 2%;
+}
+
+.os-s2-child > * {
+    margin-top: 1%;
+}
+
+.os-heading {
+    font-family: Shentox,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+}
+
+.os-s2-subchild {
+    padding-top: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.os-title {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.1;
+}
 /* nav-bar for desktop
 nav-bars: 60% / 40%
 black nav-bar: 2 list childs, justify space-between
@@ -447,6 +504,14 @@ white nav-bar: 2 list childs, justify space-between  */
 
     .title-heading-text {
         font-size: 38px;
+    }
+
+    .os-child {
+        width: calc(50% - 20px);
+    }
+
+    .os-s2 {
+        height: 45%;
     }
 }
 
@@ -590,6 +655,21 @@ black-nav-bar dissapears
      width: 100%;
  }
 
+
+ .align-end {
+     text-align: center;
+ }
+ .other-sections-container {
+     flex-flow: column wrap;
+     padding: 20px;
+ }
+ .os-child {
+    width: 100%;
+}
+
+.os-s2 {
+    height: 80%;
+}
 
 }
 
