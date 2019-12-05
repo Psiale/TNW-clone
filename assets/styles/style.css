@@ -526,7 +526,7 @@ black-nav-bar dissapears
         margin: 2% 2% 2% 0;
         grid-template-columns: 100%;
         grid-template-rows: auto;
-        height: 800px;
+        height: 510px;
     }
 
     .big-article-container {
