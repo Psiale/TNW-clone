@@ -347,6 +347,10 @@ background-position: 0 0;
     background: #ff4422;
 }
 
+.align-end {
+    text-align: end;
+}
+
 .fn-1 {
     display: flex;
     flex-direction: column;
