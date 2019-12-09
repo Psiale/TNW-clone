@@ -407,6 +407,7 @@ background-position: 0 0;
 }
 
 .other-sections-container {
+    align-items: baseline;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
