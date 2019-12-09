@@ -351,6 +351,10 @@ background-position: 0 0;
     text-align: end;
 }
 
+.center {
+    margin-left: 10px;
+}
+
 .fn-1 {
     display: flex;
     flex-direction: column;
@@ -449,6 +453,56 @@ background-position: 0 0;
     font-size: 22px;
     font-weight: bold;
     line-height: 1.1;
+}
+
+.os-title-small {
+    margin-top: -8px;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.os-s3 {
+position: relative;
+width: 100%;
+height: 96px;
+background-color: rgba(255,68,34,.06);
+}
+
+.os-s3-child-1 {
+    width: 65%;
+    padding: 1%
+}
+
+.os-s4 {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.os-list-child {
+    line-height: 1.5;
+    padding: 6px 0 6px 14px;
+    border-bottom: #eee .5px solid;
+}
+
+.os-list-child::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    color: #ff4422;
+}
+/* I have to create the container of the os-s3 section */
+.latest-img-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 96px;
+    background: url(../images/os-latest-img1.jpg) no-repeat;
+    background-position: 50%;
+    height: 96px;
+    background-size: cover;
 }
 /* nav-bar for desktop
 nav-bars: 60% / 40%
