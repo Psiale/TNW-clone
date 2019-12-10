@@ -1,874 +1,934 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="assets/styles/style.css" />
-    <title>TNW Clone</title>
-  </head>
-  <body>
-    <header>
-      <div class="media468px color-white desktop-logo">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="assets/styles/style.css" />
+  <title>TNW Clone</title>
+</head>
+
+<body>
+  <header>
+    <div class="media468px color-white desktop-logo">
+      <img class="tnw-white-logo" src="assets/images/tnw-white.svg" alt="" />
+    </div>
+    <div class="media468px flex-container-desktop-navbars">
+      <div class=" bcg-black black-navbar flex-item">
+        <ul class="black-left-list">
+          <li class="black-list-child">
+            <a class="link-navbar" href="#">News</a>
+          </li>
+          <li class="black-list-child">%
+            <a class="link-navbar" href="#">Events &#x2B07; </a>
+          </li>
+          <li class="black-list-child">
+            <a class="link-navbar" href="#">Business &#x2B07;</a>
+          </li>
+          <li class="black-list-child">
+            <a class="link-navbar" href="#">AMAs</a>
+          </li>
+          <li class="black-list-child">
+            <a class="link-navbar" href="#">Spaces</a>
+          </li>
+          <li class="black-list-child">
+            <a class="link-navbar" href="#">Terms & Conditions</a>
+          </li>
+        </ul>
+        <ul class=" media756px black-right-list">
+          <li class="black-list-child">
+            <a class="link-navbar" href="#">About</a>
+          </li>
+          <li class="black-list-child">
+            <a class="link-navbar" href="#">Team</a>
+          </li>
+          <li class="black-list-child">
+            <a class="link-navbar" href="#">Advertise</a>
+          </li>
+          <li class="black-list-child">
+            <a class="link-navbar" href="#">Jobs</a>
+          </li>
+          <li class="black-list-child">
+            <a class="link-navbar" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class=" bcg-white white-navbar flex-item">
+        <ul class="white-left-list">
+          <li class="white-left-list-child">
+            <a class="white-link-navbar" href="#">LATEST</a>
+          </li>
+          <li class="white-left-list-child">
+            <a class="white-link-navbar" href="#">HARD FORK</a>
+          </li>
+          <li class="white-left-list-child">
+            <a class="white-link-navbar" href="#">PLUGGED</a>
+          </li>
+          <li class="white-left-list-child">
+            <a class="white-link-navbar" href="#">FUNDAMENTALS</a>
+          </li>
+          <li class="white-left-list-child">
+            <a class="white-link-navbar" href="#">WORK 2030</a>
+          </li>
+        </ul>
+        <ul class="white-right-list">
+          <li class="white-right-list-child">
+            <a class="search-icon right-list-items"><img src="assets/images/search-24px.svg" alt="Search icon" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="media-1022px media-770 grid-mobile-navbar-container">
+      <div class=" grid-nav-item g-nav-logo">
         <img class="tnw-white-logo" src="assets/images/tnw-white.svg" alt="" />
       </div>
-      <div class="media468px flex-container-desktop-navbars">
-        <div class=" bcg-black black-navbar flex-item">
-          <ul class="black-left-list">
-            <li class="black-list-child">
-              <a class="link-navbar" href="#">News</a>
-            </li>
-            <li class="black-list-child">%
-              <a class="link-navbar" href="#">Events &#x2B07; </a>
-            </li>
-            <li class="black-list-child">
-              <a class="link-navbar" href="#">Business &#x2B07;</a>
-            </li>
-            <li class="black-list-child">
-              <a class="link-navbar" href="#">AMAs</a>
-            </li>
-            <li class="black-list-child">
-              <a class="link-navbar" href="#">Spaces</a>
-            </li>
-            <li class="black-list-child">
-              <a class="link-navbar" href="#">Terms & Conditions</a>
-            </li>
-          </ul>
-          <ul class=" media756px black-right-list">
-            <li class="black-list-child">
-              <a class="link-navbar" href="#">About</a>
-            </li>
-            <li class="black-list-child">
-              <a class="link-navbar" href="#">Team</a>
-            </li>
-            <li class="black-list-child">
-              <a class="link-navbar" href="#">Advertise</a>
-            </li>
-            <li class="black-list-child">
-              <a class="link-navbar" href="#">Jobs</a>
-            </li>
-            <li class="black-list-child">
-              <a class="link-navbar" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div class=" bcg-white white-navbar flex-item">
-          <ul class="white-left-list">
-            <li class="white-left-list-child">
-              <a class="white-link-navbar" href="#">LATEST</a>
-            </li>
-            <li class="white-left-list-child">
-              <a class="white-link-navbar" href="#">HARD FORK</a>
-            </li>
-            <li class="white-left-list-child">
-              <a class="white-link-navbar" href="#">PLUGGED</a>
-            </li>
-            <li class="white-left-list-child">
-              <a class="white-link-navbar" href="#">FUNDAMENTALS</a>
-            </li>
-            <li class="white-left-list-child">
-              <a class="white-link-navbar" href="#">WORK 2030</a>
-            </li>
-          </ul>
-          <ul class="white-right-list">
-            <li class="white-right-list-child">
-              <a class="search-icon right-list-items"
-                ><img src="assets/images/search-24px.svg" alt="Search icon"
-              /></a>
-            </li>
-          </ul>
-        </div>
+      <div class="bcg-white grid-nav-item g-nav-search-box"></div>
+      <div class="bcg-white grid-nav-item g-nav-icon-search">
+        <a class="search-icon right-list-items"><img src="assets/images/search-24px.svg" alt="Search icon" /></a>
       </div>
-
-      <div class="media-1022px media-770 grid-mobile-navbar-container">
-        <div class=" grid-nav-item g-nav-logo">
-          <img
-            class="tnw-white-logo"
-            src="assets/images/tnw-white.svg"
-            alt=""
-          />
-        </div>
-        <div class="bcg-white grid-nav-item g-nav-search-box"></div>
-        <div class="bcg-white grid-nav-item g-nav-icon-search">
-          <a class="search-icon right-list-items"
-            ><img src="assets/images/search-24px.svg" alt="Search icon"
-          /></a>
-        </div>
-        <div class=" bcg-white color-orange grid-nav-item g-nav-icon-hamburger">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
+      <div class=" bcg-white color-orange grid-nav-item g-nav-icon-hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
-    </header>
-
-    <main>
-      <div class="grid-main-container">
-        <div class="big-article-container">
-          <div class=" big-child-1">
-            <div class=" media-770 media468px orange-cover"></div>
-            <div class=" black-cover"></div>
-            <img
-              class=" media468px media-770 b-art-icon"
-              src="assets/images/tnw-white.svg"
-              alt="TNW icon"
-            />
-            <p class=" media468px media-770  b-art-date color-white">
-              Monday -- December 2,2019
-            </p>
-          </div>
-          <div class="big-child-2">
-            <div class="article-titles">
-              <h5 class=" color-white category-heading">
-                PLAY
-              </h5>
-              <h1 class=" title-heading-text color-white title-heading">
-                Resident Evil 3 Remake cover art leaks, and it’s amazing
-              </h1>
-            </div>
-            <div class=" color-white article-info">
-              <span>by Rachel Kaser</span>
-              <span>&#x23F0; 1 hour ago</span>
-              <span>&#x1F34C; 6</span>
-            </div>
-          </div>
-        </div>
-        <div class="small-article small-article-container-1">
-          <div class=" black-cover"></div>
-          <div class="small-child">
-            <div class="article-titles">
-              <h5 class=" color-white category-heading">
-                GEAR
-              </h5>
-              <h2 class=" small-article-text color-white title-heading">
-                We analyzed Pablo Escobar’s brother’s folding phone promo video
-              </h2>
-            </div>
-            <div class=" color-white article-info">
-              <span>by Callum Booth</span>
-              <span>&#x23F0; 2 hours ago</span>
-              <span>&#x1F34C; 12</span>
-            </div>
-          </div>
-        </div>
-        <div class="small-article small-article-container-2">
-          <div class=" black-cover"></div>
-          <div class="small-child">
-            <div class="article-titles">
-              <h5 class=" color-white category-heading">
-                INSIGHTS
-              </h5>
-              <h2 class=" small-article-text color-white title-heading">
-                Danish bank staff banned from buying Bitcoin with their own
-                money — urged to dump holdings
-              </h2>
-            </div>
-            <div class=" color-white article-info">
-              <span>by Matthew Beedham</span>
-              <span>&#x23F0; 4 hours ago</span>
-              <span>&#x1F34C; 25</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <section >
-      <div class="latest-news-container">
-            <h1 class="color-orange section-titles">Latest News ></h1>
-        <div class="latest-news-child">
-          <div class="ln-subchild ln-cover">
-            <img
-              class="img-cover"
-              src= "assets/images/ln-1.jpg"
-              alt="Facebook employees"
-            />
-          </div>
-          <div class="ln-subchild ln-bottom">
-            <p class="ln-subtitle">
-                iPhone 11 Pro collects location data even when it shouldn't, researcher says
-            </p>
-            <div class=" light-grey article-info">
-              <span>Mix</span>
-              <span> 5 hours</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="latest-news-child">
-          <div class="ln-subchild ln-cover">
-            <img
-              class="img-cover"
-              src="assets/images/ln-2.png"
-              alt="Samsung"
-            />
-          </div>
-          <div class="ln-subchild ln-bottom">
-            <p class="ln-subtitle">
-                Samsung to reportedly announce S10 and Note 10 'Lite' this month
-            </p>
-            <div class=" light-grey article-info">
-              <span>Napier Lopez </span>
-              <span> 30 minutes ago</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="latest-news-child">
-          <div class="ln-subchild ln-cover">
-            <img
-              class="img-cover"
-              src="assets/images/ln-3.png"
-              alt="DATA"
-            />
-          </div>
-          <div class="ln-subchild ln-bottom">
-            <p class="ln-subtitle">
-                DATA: Robinhood users are really bad at portfolio diversification
-            </p>
-            <div class=" light-grey article-info">
-              <span>Yaron Yitzhak </span>
-              <span> 8 hours ago</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="latest-news-child">
-          <div class="ln-subchild ln-cover">
-            <img
-              class="img-cover"
-              src="assets/images/ln-4.jpg"
-              alt="iPhone 11"
-            />
-          </div>
-          <div class="ln-subchild ln-bottom">
-            <p class="ln-subtitle">
-              iPhone 11 Pro collects location data even when it shouldn't, researchers says
-            </p>
-            <div class=" light-grey article-info">
-              <span>Mix</span>
-              <span> 8 hours ago</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="latest-news-child">
-          <div class="ln-subchild ln-cover">
-            <img
-              class="img-cover"
-              src="assets/images/ln-5.png"
-              alt="sexual assault"
-            />
-          </div>
-          <div class="ln-subchild ln-bottom">
-            <p class="ln-subtitle">
-                This new app is leveraging blockchain to help sexual assault survivors
-            </p>
-            <div class=" light-grey article-info">
-              <span>Cara Curtis </span>
-              <span> 8 hours ago</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="latest-news-child">
-          <div class="ln-subchild ln-cover">
-            <img
-              class="img-cover"
-              src="assets/images/ln-6.jpg"
-              alt="AI Asia"
-            />
-          </div>
-          <div class="ln-subchild ln-bottom">
-            <p class="ln-subtitle">
-                Regional strengths are shaping AI’s evolution in Asia, says research
-            </p>
-            <div class=" light-grey article-info">
-              <span> Binary District Journal </span>
-              <span>. 9 hours ago</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="latest-news-child">
-          <div class="ln-subchild ln-cover">
-            <img
-              class="img-cover"
-              src="assets/images/ln-7.jpg"
-              alt="North Korea"
-            />
-          </div>
-          <div class="ln-subchild ln-bottom">
-            <p class="ln-subtitle">
-              
-North Korean hackers may be behind malware distributed by cryptocurrrency trading platform
-            </p>
-            <div class=" light-grey article-info">
-              <span>Matthew Beedham </span>
-              <span> 9 hours ago</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="latest-news-child">
-          <div class="ln-subchild ln-cover">
-            <img
-              class="img-cover"
-              src="assets/images/ln-8.jpg"
-              alt="ZapReader"
-            />
-          </div>
-          <div class="ln-subchild ln-bottom">
-            <p class="ln-subtitle">
-                ZapReader can get you reading up to 3 times faster—and it's over 90% off
-            </p>
-            <div class=" light-grey article-info">
-              <span>TNW Deals </span>
-              <span> 9 hours ago</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section >
-            <div class="funding-section-container">
-                <div class="funding-section-titles-container">
-                      <h1 class="color-orange section-titles"> Latest funding rounds on Index.co ></h1>
-                      <div class="funding-info-container">
-                          <a href="" class="funding-info-links">
-                              <p class="color-orange">Add info</p>
-                          </a>
-                          <a href="" class="funding-info-links">
-                              <p class=" color-orange"> Get updates by email </p>
-                          </a>
-                          <a href="" class="funding-info-links">
-                              <p class="color-orange">See more</p>
-                          </a>
-                      </div>
-                </div>
-              <div class=" fn-child">
-                <div class="ln-subchild ln-cover fn-cover">
-                    <div class=" color-white funding-titles"> Highspot</div>
-                    <img class="fn-image-1" src="assets/images/funding-1.jpg"
-                     alt="">
-                    <div class="fn-1"> <span>$75M</span>
-                    <span>Series D</span></div>
-                </div>
-                <div class="ln-subchild fn-bottom">
-<div class="fn-2">
-                    <div class="fn-invest-container" >
-                        <img class="fn-icon" src="assets/images/local_offer-24px.svg"> </img>
-                         <span> SaaS, +2 </s>
-                    </div>
-                    <div class="fn-invest-container">
-                        <img class="fn-icon" src="assets/images/business_center-24px.svg"> </img>
-                        <span> SaaS, +2 </s>
-                    </div>
-</div>
-                  <div class=" fn-3 light-grey article-info">
-                    <span>Sales Enablement Platform Highspot  </span>
-                    <span>Raises $75 Million on Pulse 2.0</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class=" fn-child">
-                  <div class="ln-subchild ln-cover fn-cover">
-                      <div class=" color-white funding-titles"> GitGuardian</div>
-                      <img class="fn-image-1" src="assets/images/funding-2.jpg"
-                       alt="">
-                      <div class="fn-1"> <span> $12M</span>
-                      <span>SERIES A</span></div>
-                  </div>
-                  <div class="ln-subchild fn-bottom">
-  <div class="fn-2">
-                      <div class="fn-invest-container">
-                          <img class="fn-icon" src="assets/images/business_center-24px.svg"> </img>
-                          <span> SaaS, +2 </s>
-                      </div>
-  </div>
-                    <div class=" fn-3 light-grey article-info">
-                      <span>GitGuardian raises $12 million to find sensitive data hidden in online code  </span>
-                      <span>on VentureBeat</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class=" fn-child">
-                    <div class="ln-subchild ln-cover fn-cover">
-                        <div class=" color-white funding-titles"> Duolingo</div>
-                        <img class="fn-image-1" src="assets/images/funding-3.png"
-                         alt="">
-                        <div class="fn-1"> <span>$30M</span>
-                        <span>SERIES F</span></div>
-                    </div>
-                    <div class="ln-subchild fn-bottom">
-    <div class="fn-2">
-                        <div class="fn-invest-container" >
-                            <img class="fn-icon" src="assets/images/local_offer-24px.svg"> </img>
-                             <span> SaaS, +2 </s>
-                        </div>
-                        <div class="fn-invest-container">
-                            <img class="fn-icon" src="assets/images/business_center-24px.svg"> </img>
-                            <span> CapitalG </s>
-                        </div>
     </div>
-                      <div class=" fn-3 light-grey article-info">
-                        <span>Duolingo raises $30 million from Alphabet’s CapitalG at $1.5 billion  </span>
-                        <span>valuation on VentureBeat</span>
-                      </div>
-                    </div>
-                  </div>
+  </header>
 
-                  <div class=" fn-child">
-                      <div class="ln-subchild ln-cover fn-cover">
-                          <div class=" color-white funding-titles align-end"> Anaconda BioMed</div>
-                          <img class="fn-image-1" src="assets/images/funding-4.png"
-                           alt="">
-                          <div class="fn-1"> <span>€20M</span>
-                          <span>VENTURE CAPITAL</span></div>
-                      </div>
-                      <div class="ln-subchild fn-bottom">
-      <div class="fn-2">
-                          <div class="fn-invest-container" >
-                              <img class="fn-icon" src="assets/images/local_offer-24px.svg"> </img>
-                               <span> Medical, +2 </s>
-                          </div>
-                          <div class="fn-invest-container">
-                              <img class="fn-icon" src="assets/images/business_center-24px.svg"> </img>
-                              <span> Innogest, +6 </s>
-                          </div>
+  <main>
+    <div class="grid-main-container">
+      <div class="big-article-container">
+        <div class=" big-child-1">
+          <div class=" media-770 media468px orange-cover"></div>
+          <div class=" black-cover"></div>
+          <img class=" media468px media-770 b-art-icon" src="assets/images/tnw-white.svg" alt="TNW icon" />
+          <p class=" media468px media-770  b-art-date color-white">
+            Monday -- December 2,2019
+          </p>
+        </div>
+        <div class="big-child-2">
+          <div class="article-titles">
+            <h5 class=" color-white category-heading">
+              PLAY
+            </h5>
+            <h1 class=" title-heading-text color-white title-heading">
+              Resident Evil 3 Remake cover art leaks, and it’s amazing
+            </h1>
+          </div>
+          <div class=" color-white article-info">
+            <span>by Rachel Kaser</span>
+            <span>&#x23F0; 1 hour ago</span>
+            <span>&#x1F34C; 6</span>
+          </div>
+        </div>
       </div>
-                        <div class=" fn-3 light-grey article-info">
-                          <span>Anaconda Biomed Raises €20M Funding  </span>
-                          <span>Round on FinSMEs</span>
-                        </div>
-                      </div>
-                    </div>
-              </div>
-    </section>
-
-    <section class="other-sections-container">
-        
-
-        <div class="os-child">
-            <a class="no-decoration " href="#"><h2 class="os-s1 orange-to-black-link  section-titles color-orange">Apps ></h2></a>
-            <a href="#" class=" no-decoration os-s2">
-                <div class=" black-cover"></div>
-              <div class="color-white os-s2-child">
-                <div class="os-s2-subchild">
-                  <span class="os-heading ">MOST POPULAR</span>
-                  <span class="os-title">Google's developing  a feature to show
-                    brightly lit streets on Maps
-                  </span>
-                </div>
-              
-            <div class="article-info">
-              <span>Mix </span>
-              <span>. 3 hours ago</span>
-            </div>
+      <div class="small-article small-article-container-1">
+        <div class=" black-cover"></div>
+        <div class="small-child">
+          <div class="article-titles">
+            <h5 class=" color-white category-heading">
+              GEAR
+            </h5>
+            <h2 class=" small-article-text color-white title-heading">
+              We analyzed Pablo Escobar’s brother’s folding phone promo video
+            </h2>
           </div>
+          <div class=" color-white article-info">
+            <span>by Callum Booth</span>
+            <span>&#x23F0; 2 hours ago</span>
+            <span>&#x1F34C; 12</span>
+          </div>
+        </div>
+      </div>
+      <div class="small-article small-article-container-2">
+        <div class=" black-cover"></div>
+        <div class="small-child">
+          <div class="article-titles">
+            <h5 class=" color-white category-heading">
+              INSIGHTS
+            </h5>
+            <h2 class=" small-article-text color-white title-heading">
+              Danish bank staff banned from buying Bitcoin with their own
+              money — urged to dump holdings
+            </h2>
+          </div>
+          <div class=" color-white article-info">
+            <span>by Matthew Beedham</span>
+            <span>&#x23F0; 4 hours ago</span>
+            <span>&#x1F34C; 25</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section>
+    <div class="latest-news-container">
+      <h1 class="color-orange section-titles">Latest News ></h1>
+      <div class="latest-news-child">
+        <div class="ln-subchild ln-cover">
+          <img class="img-cover" src="assets/images/ln-1.jpg" alt="Facebook employees" />
+        </div>
+        <div class="ln-subchild ln-bottom">
+          <p class="ln-subtitle">
+            iPhone 11 Pro collects location data even when it shouldn't, researcher says
+          </p>
+          <div class=" light-grey article-info">
+            <span>Mix</span>
+            <span> 5 hours</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-news-child">
+        <div class="ln-subchild ln-cover">
+          <img class="img-cover" src="assets/images/ln-2.png" alt="Samsung" />
+        </div>
+        <div class="ln-subchild ln-bottom">
+          <p class="ln-subtitle">
+            Samsung to reportedly announce S10 and Note 10 'Lite' this month
+          </p>
+          <div class=" light-grey article-info">
+            <span>Napier Lopez </span>
+            <span> 30 minutes ago</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-news-child">
+        <div class="ln-subchild ln-cover">
+          <img class="img-cover" src="assets/images/ln-3.png" alt="DATA" />
+        </div>
+        <div class="ln-subchild ln-bottom">
+          <p class="ln-subtitle">
+            DATA: Robinhood users are really bad at portfolio diversification
+          </p>
+          <div class=" light-grey article-info">
+            <span>Yaron Yitzhak </span>
+            <span> 8 hours ago</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-news-child">
+        <div class="ln-subchild ln-cover">
+          <img class="img-cover" src="assets/images/ln-4.jpg" alt="iPhone 11" />
+        </div>
+        <div class="ln-subchild ln-bottom">
+          <p class="ln-subtitle">
+            iPhone 11 Pro collects location data even when it shouldn't, researchers says
+          </p>
+          <div class=" light-grey article-info">
+            <span>Mix</span>
+            <span> 8 hours ago</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-news-child">
+        <div class="ln-subchild ln-cover">
+          <img class="img-cover" src="assets/images/ln-5.png" alt="sexual assault" />
+        </div>
+        <div class="ln-subchild ln-bottom">
+          <p class="ln-subtitle">
+            This new app is leveraging blockchain to help sexual assault survivors
+          </p>
+          <div class=" light-grey article-info">
+            <span>Cara Curtis </span>
+            <span> 8 hours ago</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-news-child">
+        <div class="ln-subchild ln-cover">
+          <img class="img-cover" src="assets/images/ln-6.jpg" alt="AI Asia" />
+        </div>
+        <div class="ln-subchild ln-bottom">
+          <p class="ln-subtitle">
+            Regional strengths are shaping AI’s evolution in Asia, says research
+          </p>
+          <div class=" light-grey article-info">
+            <span> Binary District Journal </span>
+            <span>. 9 hours ago</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-news-child">
+        <div class="ln-subchild ln-cover">
+          <img class="img-cover" src="assets/images/ln-7.jpg" alt="North Korea" />
+        </div>
+        <div class="ln-subchild ln-bottom">
+          <p class="ln-subtitle">
+
+            North Korean hackers may be behind malware distributed by cryptocurrrency trading platform
+          </p>
+          <div class=" light-grey article-info">
+            <span>Matthew Beedham </span>
+            <span> 9 hours ago</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-news-child">
+        <div class="ln-subchild ln-cover">
+          <img class="img-cover" src="assets/images/ln-8.jpg" alt="ZapReader" />
+        </div>
+        <div class="ln-subchild ln-bottom">
+          <p class="ln-subtitle">
+            ZapReader can get you reading up to 3 times faster—and it's over 90% off
+          </p>
+          <div class=" light-grey article-info">
+            <span>TNW Deals </span>
+            <span> 9 hours ago</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="funding-section-container">
+      <div class="funding-section-titles-container">
+        <h1 class="color-orange section-titles"> Latest funding rounds on Index.co ></h1>
+        <div class="funding-info-container">
+          <a href="" class="funding-info-links">
+            <p class="color-orange">Add info</p>
           </a>
-          <div class="os-s3">
-            <div class="os-s3-child-1">
-              <p class="center os-heading color-orange">LATEST</p>
-<a href="#" class=" no-decoration">
-                <p class=" center os-title-small color-orange">Uber will soon let you 'favorite' 
-                  drivers (in California, at least)</p>
-</a>
+          <a href="" class="funding-info-links">
+            <p class=" color-orange"> Get updates by email </p>
+          </a>
+          <a href="" class="funding-info-links">
+            <p class="color-orange">See more</p>
+          </a>
+        </div>
+      </div>
+      <div class=" fn-child">
+        <div class="ln-subchild ln-cover fn-cover">
+          <div class=" color-white funding-titles"> Highspot</div>
+          <img class="fn-image-1" src="assets/images/funding-1.jpg" alt="">
+          <div class="fn-1"> <span>$75M</span>
+            <span>Series D</span></div>
+        </div>
+        <div class="ln-subchild fn-bottom">
+          <div class="fn-2">
+            <div class="fn-invest-container">
+              <img class="fn-icon" src="assets/images/local_offer-24px.svg"> </img>
+              <span> SaaS, +2 </s>
             </div>
-            <div class="latest-img-container"></div>
+            <div class="fn-invest-container">
+              <img class="fn-icon" src="assets/images/business_center-24px.svg"> </img>
+              <span> SaaS, +2 </s>
+            </div>
           </div>
-          <ul class="os-s4">
-            <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">iPhone 11 Pro collects location data even when it shouldn't, researcher says</li></a>
-            <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Google rolls out a chat feature in Google Photos — use it before it’s axed</li></a>
-            <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Report: TikTok limited the reach of users with visible disabilities</li></a>
-            <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Facebook tests tool that allows users to export photos to Google</li></a>
-            <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Reddit's DataIsBeautiful is sick of bar chart races — so it's banning them</li></a>
-          </ul>
+          <div class=" fn-3 light-grey article-info">
+            <span>Sales Enablement Platform Highspot </span>
+            <span>Raises $75 Million on Pulse 2.0</span>
           </div>
+        </div>
+      </div>
 
-          <div class="os-child">
-              <a class="no-decoration " href="#"><h2 class="os-s1 orange-to-black-link  section-titles color-orange">Gear ></h2></a>
-              <a href="#" class=" no-decoration os-s2 os-img-2">
-                  <div class=" black-cover"></div>
-                <div class="color-white os-s2-child">
-                  <div class="os-s2-subchild">
-                    <span class="os-heading ">MOST POPULAR</span>
-                    <span class="os-title">OnePlus might finally introduce a mid-range phone next year
-                    </span>
-                  </div>
-                
-              <div class="article-info">
-                <span>Ivan Mehta </span>
-                <span>. 10 hours ago</span>
-              </div>
+      <div class=" fn-child">
+        <div class="ln-subchild ln-cover fn-cover">
+          <div class=" color-white funding-titles"> GitGuardian</div>
+          <img class="fn-image-1" src="assets/images/funding-2.jpg" alt="">
+          <div class="fn-1"> <span> $12M</span>
+            <span>SERIES A</span></div>
+        </div>
+        <div class="ln-subchild fn-bottom">
+          <div class="fn-2">
+            <div class="fn-invest-container">
+              <img class="fn-icon" src="assets/images/business_center-24px.svg"> </img>
+              <span> SaaS, +2 </s>
             </div>
-            </a>
-            <div class="os-s3">
-              <div class="os-s3-child-1">
-                <p class="center os-heading color-orange">LATEST</p>
-  <a href="#" class=" no-decoration">
-                  <p class=" center os-title-small color-orange">You can finally buy the Mac Pro on December 10</p>
-  </a>
-              </div>
-              <div class="latest-img-container li-2"></div>
-            </div>
-            <ul class="os-s4">
-              <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Google's first 'Pixel feature drop' brings portrait mode to your old photos</li></a>
-              <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">OnePlus finally ditches its terrible TV remote for a new design</li></a>
-              <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">CHEAP: Say YES to fun AND fitness this Xmas with $70 off the Fitbit Versa 2 smartwatch</li></a>
-              <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">OnePlus might finally introduce a mid-range phone next year</li></a>
-              <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">CHEAP: Game your ass off with 43% off HyperX Flight wireless headset</li></a>
-            </ul>
-            </div>
+          </div>
+          <div class=" fn-3 light-grey article-info">
+            <span>GitGuardian raises $12 million to find sensitive data hidden in online code </span>
+            <span>on VentureBeat</span>
+          </div>
+        </div>
+      </div>
 
-            <div class="os-child">
-                <a class="no-decoration " href="#"><h2 class="os-s1 orange-to-black-link  section-titles color-orange">Tech ></h2></a>
-                <a href="#" class=" no-decoration os-s2 os-img-3">
-                    <div class=" black-cover"></div>
-                  <div class="color-white os-s2-child">
-                    <div class="os-s2-subchild">
-                      <span class="os-heading ">MOST POPULAR</span>
-                      <span class="os-title">Byte Me #10: Very old dildos, deadly lipstick, and a tanned asshole
-                      </span>
-                    </div>
-                  
-                <div class="article-info">
-                  <span>Cara Curtis </span>
-                  <span>. 6 hours ago</span>
-                </div>
-              </div>
-              </a>
-              <div class="os-s3">
-                <div class="os-s3-child-1">
-                  <p class="center os-heading color-orange">LATEST</p>
-    <a href="#" class=" no-decoration">
-                    <p class=" center os-title-small color-orange">How Netflix uses psychology to perfect their customer experience</p>
-    </a>
-                </div>
-                <div class="latest-img-container li-3"></div>
-              </div>
-              <ul class="os-s4">
-                <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Byte Me #10: Very old dildos, deadly lipstick, and a tanned asshole</li></a>
-                <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Why humans are psychologically inclined to mistrust ‘the other’</li></a>
-                <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Here's why Indivisible is the most diverse and inclusive game of 2019</li></a>
-                <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Smart cities won't infringe on privacy or destroy buildings</li></a>
-                <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">5 corrupt reasons why people deny the climate crisis</li></a>
-              </ul>
-              </div>
+      <div class=" fn-child">
+        <div class="ln-subchild ln-cover fn-cover">
+          <div class=" color-white funding-titles"> Duolingo</div>
+          <img class="fn-image-1" src="assets/images/funding-3.png" alt="">
+          <div class="fn-1"> <span>$30M</span>
+            <span>SERIES F</span></div>
+        </div>
+        <div class="ln-subchild fn-bottom">
+          <div class="fn-2">
+            <div class="fn-invest-container">
+              <img class="fn-icon" src="assets/images/local_offer-24px.svg"> </img>
+              <span> SaaS, +2 </s>
+            </div>
+            <div class="fn-invest-container">
+              <img class="fn-icon" src="assets/images/business_center-24px.svg"> </img>
+              <span> CapitalG </s>
+            </div>
+          </div>
+          <div class=" fn-3 light-grey article-info">
+            <span>Duolingo raises $30 million from Alphabet’s CapitalG at $1.5 billion </span>
+            <span>valuation on VentureBeat</span>
+          </div>
+        </div>
+      </div>
 
-              <div class="os-child">
-                  <a class="no-decoration " href="#"><h2 class="os-s1 orange-to-black-link  section-titles color-orange">Creative ></h2></a>
-                  <a href="#" class=" no-decoration os-s2 os-img-4">
-                      <div class=" black-cover"></div>
-                    <div class="color-white os-s2-child">
-                      <div class="os-s2-subchild">
-                        <span class="os-heading ">MOST POPULAR</span>
-                        <span class="os-title">Giphy debuts Arcade, a platform for making and playing 'microgames'
-                        </span>
-                      </div>
-                    
-                  <div class="article-info">
-                    <span>Rachel Kaser </span>
-                    <span>. 7 weeks ago</span>
-                  </div>
-                </div>
-                </a>
-                <div class="os-s3">
-                  <div class="os-s3-child-1">
-                    <p class="center os-heading color-orange">LATEST</p>
-      <a href="#" class=" no-decoration">
-                      <p class=" center os-title-small color-orange">Microsoft's new font for devs is very aesthetically pleasing (and free)</p>
+      <div class=" fn-child">
+        <div class="ln-subchild ln-cover fn-cover">
+          <div class=" color-white funding-titles align-end"> Anaconda BioMed</div>
+          <img class="fn-image-1" src="assets/images/funding-4.png" alt="">
+          <div class="fn-1"> <span>€20M</span>
+            <span>VENTURE CAPITAL</span></div>
+        </div>
+        <div class="ln-subchild fn-bottom">
+          <div class="fn-2">
+            <div class="fn-invest-container">
+              <img class="fn-icon" src="assets/images/local_offer-24px.svg"> </img>
+              <span> Medical, +2 </s>
+            </div>
+            <div class="fn-invest-container">
+              <img class="fn-icon" src="assets/images/business_center-24px.svg"> </img>
+              <span> Innogest, +6 </s>
+            </div>
+          </div>
+          <div class=" fn-3 light-grey article-info">
+            <span>Anaconda Biomed Raises €20M Funding </span>
+            <span>Round on FinSMEs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="other-sections-container">
+
+
+    <div class="os-child">
+      <a class="no-decoration " href="#">
+        <h2 class="os-s1 orange-to-black-link  section-titles color-orange">Apps ></h2>
       </a>
-                  </div>
-                  <div class="latest-img-container li-4"></div>
-                </div>
-                <ul class="os-s4">
-                  <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">How to build a production and recording studio that fits in a backpack</li></a>
-                  <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Watch: Disney’s new anti-vibration tech maps CGI movements onto actual robots</li></a>
-                  <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Chinese vertical dramas made for phone viewing show the future of mobile video</li></a>
-                  <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Sorry, but you can’t copyright a meme</li></a>
-                  <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">A peek at legendary architect John Storyk's design process</li></a>
-                </ul>
-                </div>
+      <a href="#" class=" no-decoration os-s2 os-img-1 os-img">
+        <div class=" black-cover"></div>
+        <div class="color-white os-s2-child">
+          <div class="os-s2-subchild">
+            <span class="os-heading ">MOST POPULAR</span>
+            <span class="os-title">Google's developing a feature to show
+              brightly lit streets on Maps
+            </span>
+          </div>
 
-                <div class="os-child">
-                    <a class="no-decoration " href="#"><h2 class="os-s1 orange-to-black-link  section-titles color-orange">Podium ></h2></a>
-                    <a href="#" class=" no-decoration os-s2 os-img-5">
-                        <div class=" black-cover"></div>
-                      <div class="color-white os-s2-child">
-                        <div class="os-s2-subchild">
-                          <span class="os-heading ">MOST POPULAR</span>
-                          <span class="os-title">Five things AI firms can learn from video games success
-                          </span>
-                        </div>
-                      
-                    <div class="article-info">
-                      <span>Ellie Martin </span>
-                      <span>. 6 minutes ago</span>
-                    </div>
-                  </div>
-                  </a>
-                  <div class="os-s3">
-                    <div class="os-s3-child-1">
-                      <p class="center os-heading color-orange">LATEST</p>
-        <a href="#" class=" no-decoration">
-                        <p class=" center os-title-small color-orange">3 ways EU’s new leadership will shape global tech</p>
-        </a>
-                    </div>
-                    <div class="latest-img-container li-5"></div>
-                  </div>
-                  <ul class="os-s4">
-                    <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Not ready to go public? That’s the perfect time to think about going public</li></a>
-                    <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">To succeed professionally, you must nurture the right skills</li></a>
-                    <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Your vote is for sale and Big Tech is selling it</li></a>
-                    <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">How to make your brand’s content people-centric</li></a>
-                    <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">The secret sauce of collaboration</li></a>
-                  </ul>
-                  </div>
-
-                  <div class="os-child">
-                      <a class="no-decoration " href="#"><h2 class="os-s1 orange-to-black-link  section-titles color-orange">Insights ></h2></a>
-                      <a href="#" class=" no-decoration os-s2 os-img-6">
-                          <div class=" black-cover"></div>
-                        <div class="color-white os-s2-child">
-                          <div class="os-s2-subchild">
-                            <span class="os-heading ">MOST POPULAR</span>
-                            <span class="os-title">Bitcoin ransomware locks 10 years' worth of government data in Argentina
-                            </span>
-                          </div>
-                        
-                      <div class="article-info">
-                        <span>Yessi Bello Perez </span>
-                        <span>. 7 hours ago</span>
-                      </div>
-                    </div>
-                    </a>
-                    <div class="os-s3">
-                      <div class="os-s3-child-1">
-                        <p class="center os-heading color-orange">LATEST</p>
+          <div class="article-info">
+            <span>Mix </span>
+            <span>. 3 hours ago</span>
+          </div>
+        </div>
+      </a>
+      <div class="os-s3">
+        <div class="os-s3-child-1">
+          <p class="center os-heading color-orange">LATEST</p>
           <a href="#" class=" no-decoration">
-                          <p class=" center os-title-small color-orange">Dev says MakerDAO attackers could turn $20M in Ethereum into $340M almost instantly</p>
+            <p class=" center os-title-small color-orange">Uber will soon let you 'favorite'
+              drivers (in California, at least)</p>
           </a>
-                      </div>
-                      <div class="latest-img-container li-6"></div>
-                    </div>
-                    <ul class="os-s4">
-                      <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">FBI and US Marshals warn of heinous scammers demanding payments via Bitcoin ATMs</li></a>
-                      <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Bitcoin ransomware locks 10 years' worth of government data in Argentina</li></a>
-                      <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Moonday Mornings: IRS readies to tax your cryptocurrency — no matter what</li></a>
-                      <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Satoshi Nakaboto: ‘Ermahgerd, there's a Bitcoin node in the International Space Station now’</li></a>
-                      <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Millennials would rather cop Bitcoin than Disney and Netflix stocks</li></a>
-                    </ul>
-                    </div>
+        </div>
+        <div class="latest-img-container"></div>
+      </div>
+      <ul class="os-s4">
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">iPhone 11 Pro collects location data even when it shouldn't, researcher says</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Google rolls out a chat feature in Google Photos — use it before it’s axed</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Report: TikTok limited the reach of users with visible disabilities</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Facebook tests tool that allows users to export photos to Google</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Reddit's DataIsBeautiful is sick of bar chart races — so it's banning them</li>
+        </a>
+      </ul>
+    </div>
 
-                    <div class="os-child">
-                        <a class="no-decoration " href="#"><h2 class="os-s1 orange-to-black-link  section-titles color-orange">Launch ></h2></a>
-                        <a href="#" class=" no-decoration os-s2 os-img-7">
-                            <div class=" black-cover"></div>
-                          <div class="color-white os-s2-child">
-                            <div class="os-s2-subchild">
-                              <span class="os-heading ">MOST POPULAR</span>
-                              <span class="os-title">PSA: Amazon Fresh grocery deliveries are now free for US Prime members
-                              </span>
-                            </div>
-                          
-                        <div class="article-info">
-                          <span>Abhimanyu Ghoshal </span>
-                          <span>. 5 weeks ago</span>
-                        </div>
-                      </div>
-                      </a>
-                      <div class="os-s3">
-                        <div class="os-s3-child-1">
-                          <p class="center os-heading color-orange">LATEST</p>
-            <a href="#" class=" no-decoration">
-                            <p class=" center os-title-small color-orange">Alexis Ohanian and Serj Tankian team up to help build a social network for Armenia</p>
-            </a>
-                        </div>
-                        <div class="latest-img-container li-7"></div>
-                      </div>
-                      <ul class="os-s4">
-                        <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Google Assistant gets its own phone number in India</li></a>
-                        <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Pam and Angela from The Office are re-watching the show for their new podcast</li></a>
-                        <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Bethesda wants you to test its game streaming tech with DOOM on iOS this year</li></a>
-                        <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Mozilla rolls out new automated crypto-jacking filtering in Firefox</li></a>
-                        <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Google announces Stadia, its cross-platform game streaming service</li></a>
-                      </ul>
-                      </div>
-
-                      <div class="os-child">
-                          <a class="no-decoration " href="#"><h2 class="os-s1 orange-to-black-link  section-titles color-orange">Distract ></h2></a>
-                          <a href="#" class=" no-decoration os-s2 os-img-8">
-                              <div class=" black-cover"></div>
-                            <div class="color-white os-s2-child">
-                              <div class="os-s2-subchild">
-                                <span class="os-heading ">MOST POPULAR</span>
-                                <span class="os-title">Here's why Indivisible is the most diverse and inclusive game of 2019
-                                </span>
-                              </div>
-                            
-                          <div class="article-info">
-                            <span>Super Jump Magazine </span>
-                            <span>. 1 day ago</span>
-                          </div>
-                        </div>
-                        </a>
-                        <div class="os-s3">
-                          <div class="os-s3-child-1">
-                            <p class="center os-heading color-orange">LATEST</p>
-              <a href="#" class=" no-decoration">
-                              <p class=" center os-title-small color-orange">YouTube completely gives up trying for Rewind 2019</p>
-              </a>
-                          </div>
-                          <div class="latest-img-container li-8"></div>
-                        </div>
-                        <ul class="os-s4">
-                          <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Studio Ghibli scoops HBO Max by offering its films for digital purchase</li></a>
-                          <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Even Facebook's employees don't trust it with their financial info</li></a>
-                          <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">Researcher uses AI to unravel the mystery of Shakespeare's co-author</li></a>
-                          <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">This YUGE font generator lets you write like Trump</li></a>
-                          <a href="#" class=" no-decoration light-grey orange-to-black-link"><li class="os-list-child">loppy disk signed by Steve Jobs is up for auction and valued at $7,500</li></a>
-                        </ul>
-                        </div>
-  
-    </section>
-
-    <section>
-        <div class="title-more-info-container">
-            <a href="#" class=" no-decoration"><h1 class=" orange-to-black-link color-orange section-titles">Latest Deals ></h1></a>
-            <a href="#" class="funding-info-links">
-                <p class=" color-orange orange-to-black-link"> Get updates by email </p>
-            </a>
+    <div class="os-child">
+      <a class="no-decoration " href="#">
+        <h2 class="os-s1 orange-to-black-link  section-titles color-orange">Gear ></h2>
+      </a>
+      <a href="#" class=" no-decoration os-s2 os-img-2 os-img">
+        <div class=" black-cover"></div>
+        <div class="color-white os-s2-child">
+          <div class="os-s2-subchild">
+            <span class="os-heading ">MOST POPULAR</span>
+            <span class="os-title">OnePlus might finally introduce a mid-range phone next year
+            </span>
           </div>
-          <div class ="flex-container">
-            <div class="latest-deals-child">
-              <a href="#" class="ld-1">
-                <div class="ld-ribbon">
-                  <div>95% OFF</div>
-                </div>
-              </a>
-              <div class="ld-2">
-                  <a class=" black-to-orange-link ln-subtitle">
-                      The 2020 Limited Edition Mac Bundle Ft. Parallels Desktop
-                  </a>
-                  <div class=" light-grey article-info">
-                    <span class="before-deal">$1267.80 </span>
-                    <span class="category-heading light-black"> $59.99</span>
-                  </div>
-              </div>
+
+          <div class="article-info">
+            <span>Ivan Mehta </span>
+            <span>. 10 hours ago</span>
+          </div>
+        </div>
+      </a>
+      <div class="os-s3">
+        <div class="os-s3-child-1">
+          <p class="center os-heading color-orange">LATEST</p>
+          <a href="#" class=" no-decoration">
+            <p class=" center os-title-small color-orange">You can finally buy the Mac Pro on December 10</p>
+          </a>
+        </div>
+        <div class="latest-img-container li-2"></div>
+      </div>
+      <ul class="os-s4">
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Google's first 'Pixel feature drop' brings portrait mode to your old photos</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">OnePlus finally ditches its terrible TV remote for a new design</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">CHEAP: Say YES to fun AND fitness this Xmas with $70 off the Fitbit Versa 2
+            smartwatch</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">OnePlus might finally introduce a mid-range phone next year</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">CHEAP: Game your ass off with 43% off HyperX Flight wireless headset</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="os-child">
+      <a class="no-decoration " href="#">
+        <h2 class="os-s1 orange-to-black-link  section-titles color-orange">Tech ></h2>
+      </a>
+      <a href="#" class=" no-decoration os-s2 os-img-3 os-img">
+        <div class=" black-cover"></div>
+        <div class="color-white os-s2-child">
+          <div class="os-s2-subchild">
+            <span class="os-heading ">MOST POPULAR</span>
+            <span class="os-title">Byte Me #10: Very old dildos, deadly lipstick, and a tanned asshole
+            </span>
+          </div>
+
+          <div class="article-info">
+            <span>Cara Curtis </span>
+            <span>. 6 hours ago</span>
+          </div>
+        </div>
+      </a>
+      <div class="os-s3">
+        <div class="os-s3-child-1">
+          <p class="center os-heading color-orange">LATEST</p>
+          <a href="#" class=" no-decoration">
+            <p class=" center os-title-small color-orange">How Netflix uses psychology to perfect their customer
+              experience</p>
+          </a>
+        </div>
+        <div class="latest-img-container li-3"></div>
+      </div>
+      <ul class="os-s4">
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Byte Me #10: Very old dildos, deadly lipstick, and a tanned asshole</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Why humans are psychologically inclined to mistrust ‘the other’</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Here's why Indivisible is the most diverse and inclusive game of 2019</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Smart cities won't infringe on privacy or destroy buildings</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">5 corrupt reasons why people deny the climate crisis</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="os-child">
+      <a class="no-decoration " href="#">
+        <h2 class="os-s1 orange-to-black-link  section-titles color-orange">Creative ></h2>
+      </a>
+      <a href="#" class=" no-decoration os-s2 os-img-4 os-img">
+        <div class=" black-cover"></div>
+        <div class="color-white os-s2-child">
+          <div class="os-s2-subchild">
+            <span class="os-heading ">MOST POPULAR</span>
+            <span class="os-title">Giphy debuts Arcade, a platform for making and playing 'microgames'
+            </span>
+          </div>
+
+          <div class="article-info">
+            <span>Rachel Kaser </span>
+            <span>. 7 weeks ago</span>
+          </div>
+        </div>
+      </a>
+      <div class="os-s3">
+        <div class="os-s3-child-1">
+          <p class="center os-heading color-orange">LATEST</p>
+          <a href="#" class=" no-decoration">
+            <p class=" center os-title-small color-orange">Microsoft's new font for devs is very aesthetically pleasing
+              (and free)</p>
+          </a>
+        </div>
+        <div class="latest-img-container li-4"></div>
+      </div>
+      <ul class="os-s4">
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">How to build a production and recording studio that fits in a backpack</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Watch: Disney’s new anti-vibration tech maps CGI movements onto actual robots</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Chinese vertical dramas made for phone viewing show the future of mobile video</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Sorry, but you can’t copyright a meme</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">A peek at legendary architect John Storyk's design process</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="os-child">
+      <a class="no-decoration " href="#">
+        <h2 class="os-s1 orange-to-black-link  section-titles color-orange">Podium ></h2>
+      </a>
+      <a href="#" class=" no-decoration os-s2 os-img-5 os-img">
+        <div class=" black-cover"></div>
+        <div class="color-white os-s2-child">
+          <div class="os-s2-subchild">
+            <span class="os-heading ">MOST POPULAR</span>
+            <span class="os-title">Five things AI firms can learn from video games success
+            </span>
+          </div>
+
+          <div class="article-info">
+            <span>Ellie Martin </span>
+            <span>. 6 minutes ago</span>
+          </div>
+        </div>
+      </a>
+      <div class="os-s3">
+        <div class="os-s3-child-1">
+          <p class="center os-heading color-orange">LATEST</p>
+          <a href="#" class=" no-decoration">
+            <p class=" center os-title-small color-orange">3 ways EU’s new leadership will shape global tech</p>
+          </a>
+        </div>
+        <div class="latest-img-container li-5"></div>
+      </div>
+      <ul class="os-s4">
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Not ready to go public? That’s the perfect time to think about going public</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">To succeed professionally, you must nurture the right skills</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Your vote is for sale and Big Tech is selling it</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">How to make your brand’s content people-centric</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">The secret sauce of collaboration</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="os-child">
+      <a class="no-decoration " href="#">
+        <h2 class="os-s1 orange-to-black-link  section-titles color-orange">Insights ></h2>
+      </a>
+      <a href="#" class=" no-decoration os-s2 os-img-6 os-img">
+        <div class=" black-cover"></div>
+        <div class="color-white os-s2-child">
+          <div class="os-s2-subchild">
+            <span class="os-heading ">MOST POPULAR</span>
+            <span class="os-title">Bitcoin ransomware locks 10 years' worth of government data in Argentina
+            </span>
+          </div>
+
+          <div class="article-info">
+            <span>Yessi Bello Perez </span>
+            <span>. 7 hours ago</span>
+          </div>
+        </div>
+      </a>
+      <div class="os-s3">
+        <div class="os-s3-child-1">
+          <p class="center os-heading color-orange">LATEST</p>
+          <a href="#" class=" no-decoration">
+            <p class=" center os-title-small color-orange">Dev says MakerDAO attackers could turn $20M in Ethereum into
+              $340M almost instantly</p>
+          </a>
+        </div>
+        <div class="latest-img-container li-6"></div>
+      </div>
+      <ul class="os-s4">
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">FBI and US Marshals warn of heinous scammers demanding payments via Bitcoin ATMs
+          </li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Bitcoin ransomware locks 10 years' worth of government data in Argentina</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Moonday Mornings: IRS readies to tax your cryptocurrency — no matter what</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Satoshi Nakaboto: ‘Ermahgerd, there's a Bitcoin node in the International Space
+            Station now’</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Millennials would rather cop Bitcoin than Disney and Netflix stocks</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="os-child">
+      <a class="no-decoration " href="#">
+        <h2 class="os-s1 orange-to-black-link  section-titles color-orange">Launch ></h2>
+      </a>
+      <a href="#" class=" no-decoration os-s2 os-img-7 os-img">
+        <div class=" black-cover"></div>
+        <div class="color-white os-s2-child">
+          <div class="os-s2-subchild">
+            <span class="os-heading ">MOST POPULAR</span>
+            <span class="os-title">PSA: Amazon Fresh grocery deliveries are now free for US Prime members
+            </span>
+          </div>
+
+          <div class="article-info">
+            <span>Abhimanyu Ghoshal </span>
+            <span>. 5 weeks ago</span>
+          </div>
+        </div>
+      </a>
+      <div class="os-s3">
+        <div class="os-s3-child-1">
+          <p class="center os-heading color-orange">LATEST</p>
+          <a href="#" class=" no-decoration">
+            <p class=" center os-title-small color-orange">Alexis Ohanian and Serj Tankian team up to help build a
+              social network for Armenia</p>
+          </a>
+        </div>
+        <div class="latest-img-container li-7"></div>
+      </div>
+      <ul class="os-s4">
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Google Assistant gets its own phone number in India</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Pam and Angela from The Office are re-watching the show for their new podcast</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Bethesda wants you to test its game streaming tech with DOOM on iOS this year</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Mozilla rolls out new automated crypto-jacking filtering in Firefox</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Google announces Stadia, its cross-platform game streaming service</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="os-child">
+      <a class="no-decoration " href="#">
+        <h2 class="os-s1 orange-to-black-link  section-titles color-orange">Distract ></h2>
+      </a>
+      <a href="#" class=" no-decoration os-s2 os-img-8">
+        <div class=" black-cover"></div>
+        <div class="color-white os-s2-child">
+          <div class="os-s2-subchild">
+            <span class="os-heading ">MOST POPULAR</span>
+            <span class="os-title">Here's why Indivisible is the most diverse and inclusive game of 2019
+            </span>
+          </div>
+
+          <div class="article-info">
+            <span>Super Jump Magazine </span>
+            <span>. 1 day ago</span>
+          </div>
+        </div>
+      </a>
+      <div class="os-s3">
+        <div class="os-s3-child-1">
+          <p class="center os-heading color-orange">LATEST</p>
+          <a href="#" class=" no-decoration">
+            <p class=" center os-title-small color-orange">YouTube completely gives up trying for Rewind 2019</p>
+          </a>
+        </div>
+        <div class="latest-img-container li-8"></div>
+      </div>
+      <ul class="os-s4">
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Studio Ghibli scoops HBO Max by offering its films for digital purchase</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Even Facebook's employees don't trust it with their financial info</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">Researcher uses AI to unravel the mystery of Shakespeare's co-author</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">This YUGE font generator lets you write like Trump</li>
+        </a>
+        <a href="#" class=" no-decoration light-grey orange-to-black-link">
+          <li class="os-list-child">loppy disk signed by Steve Jobs is up for auction and valued at $7,500</li>
+        </a>
+      </ul>
+    </div>
+
+  </section>
+
+  <section>
+    <div class="title-more-info-container">
+      <a href="#" class=" no-decoration">
+        <h1 class=" orange-to-black-link color-orange section-titles">Latest Deals ></h1>
+      </a>
+      <a href="#" class="funding-info-links">
+        <p class=" color-orange orange-to-black-link"> Get updates by email </p>
+      </a>
+    </div>
+    <div class="flex-container">
+      <div class="latest-deals-child">
+        <a href="#" class="ld-1">
+          <div class="ld-ribbon">
+            <div>95% OFF</div>
+          </div>
+        </a>
+        <div class="ld-2">
+          <a class="ln-subtitle">
+            <a href="#">The 2020 Limited Edition Mac Bundle Ft. Parallels Desktop</a>
+            </p>
+            <div class=" light-grey article-info">
+              <span class="before-deal">$1267.80 </span>
+              <span class="category-heading light-black"> $59.99</span>
             </div>
-            <div class="latest-deals-child">
-                <div class="ld-1">
-                  
-                </div>
-                <div class="ld-2">
-                    <p class="ln-subtitle">
-                        ZapReader can get you reading up to 3 times faster—and it's over 90% off
-                    </p>
-                    <div class=" light-grey article-info">
-                      <span>TNW Deals </span>
-                      <span> 9 hours ago</span>
-                    </div>
-                </div>
-              </div>
+        </div>
+      </div>
+      <div class="latest-deals-child">
+        <div class="ld-1">
 
-              <div class="latest-deals-child">
-                  <div class="ld-1">
-                    
-                  </div>
-                  <div class="ld-2">
-                      <p class="ln-subtitle">
-                          ZapReader can get you reading up to 3 times faster—and it's over 90% off
-                      </p>
-                      <div class=" light-grey article-info">
-                        <span>TNW Deals </span>
-                        <span> 9 hours ago</span>
-                      </div>
-                  </div>
-                </div>
-
-                <div class="latest-deals-child">
-                    <div class="ld-1">
-                      
-                    </div>
-                    <div class="ld-2">
-                        <p class="ln-subtitle">
-                            ZapReader can get you reading up to 3 times faster—and it's over 90% off
-                        </p>
-                        <div class=" light-grey article-info">
-                          <span>TNW Deals </span>
-                          <span> 9 hours ago</span>
-                        </div>
-                    </div>
-                  </div>
-
-                  <div class="latest-deals-child">
-                      <div class="ld-1">
-                        
-                      </div>
-                      <div class="ld-2">
-                          <p class="ln-subtitle">
-                              ZapReader can get you reading up to 3 times faster—and it's over 90% off
-                          </p>
-                          <div class=" light-grey article-info">
-                            <span>TNW Deals </span>
-                            <span> 9 hours ago</span>
-                          </div>
-                      </div>
-                    </div>
-
-                    <div class="latest-deals-child">
-                        <div class="ld-1">
-                          
-                        </div>
-                        <div class="ld-2">
-                            <p class="ln-subtitle">
-                                ZapReader can get you reading up to 3 times faster—and it's over 90% off
-                            </p>
-                            <div class=" light-grey article-info">
-                              <span>TNW Deals </span>
-                              <span> 9 hours ago</span>
-                            </div>
-                        </div>
-                      </div>
-
-                      <div class="latest-deals-child">
-                          <div class="ld-1">
-                            
-                          </div>
-                          <div class="ld-2">
-                              <p class="ln-subtitle">
-                                  ZapReader can get you reading up to 3 times faster—and it's over 90% off
-                              </p>
-                              <div class=" light-grey article-info">
-                                <span>TNW Deals </span>
-                                <span> 9 hours ago</span>
-                              </div>
-                          </div>
-                        </div>
-
-                        <div class="latest-deals-child">
-                            <div class="ld-1">
-                              
-                            </div>
-                            <div class="ld-2">
-                                <p class="ln-subtitle">
-                                    ZapReader can get you reading up to 3 times faster—and it's over 90% off
-                                </p>
-                                <div class=" light-grey article-info">
-                                  <span>TNW Deals </span>
-                                  <span> 9 hours ago</span>
-                                </div>
-                            </div>
-                          </div>
+        </div>
+        <div class="ld-2">
+          <p class="ln-subtitle">
+            ZapReader can get you reading up to 3 times faster—and it's over 90% off
+          </p>
+          <div class=" light-grey article-info">
+            <span>TNW Deals </span>
+            <span> 9 hours ago</span>
           </div>
+        </div>
+      </div>
 
-          
+      <div class="latest-deals-child">
+        <div class="ld-1">
 
-    </section>
-    
+        </div>
+        <div class="ld-2">
+          <p class="ln-subtitle">
+            ZapReader can get you reading up to 3 times faster—and it's over 90% off
+          </p>
+          <div class=" light-grey article-info">
+            <span>TNW Deals </span>
+            <span> 9 hours ago</span>
+          </div>
+        </div>
+      </div>
 
-  </body>
+      <div class="latest-deals-child">
+        <div class="ld-1">
+
+        </div>
+        <div class="ld-2">
+          <p class="ln-subtitle">
+            ZapReader can get you reading up to 3 times faster—and it's over 90% off
+          </p>
+          <div class=" light-grey article-info">
+            <span>TNW Deals </span>
+            <span> 9 hours ago</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-deals-child">
+        <div class="ld-1">
+
+        </div>
+        <div class="ld-2">
+          <p class="ln-subtitle">
+            ZapReader can get you reading up to 3 times faster—and it's over 90% off
+          </p>
+          <div class=" light-grey article-info">
+            <span>TNW Deals </span>
+            <span> 9 hours ago</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-deals-child">
+        <div class="ld-1">
+
+        </div>
+        <div class="ld-2">
+          <p class="ln-subtitle">
+            ZapReader can get you reading up to 3 times faster—and it's over 90% off
+          </p>
+          <div class=" light-grey article-info">
+            <span>TNW Deals </span>
+            <span> 9 hours ago</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-deals-child">
+        <div class="ld-1">
+
+        </div>
+        <div class="ld-2">
+          <p class="ln-subtitle">
+            ZapReader can get you reading up to 3 times faster—and it's over 90% off
+          </p>
+          <div class=" light-grey article-info">
+            <span>TNW Deals </span>
+            <span> 9 hours ago</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-deals-child">
+        <div class="ld-1">
+
+        </div>
+        <div class="ld-2">
+          <p class="ln-subtitle">
+            ZapReader can get you reading up to 3 times faster—and it's over 90% off
+          </p>
+          <div class=" light-grey article-info">
+            <span>TNW Deals </span>
+            <span> 9 hours ago</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+</body>
+
 </html>

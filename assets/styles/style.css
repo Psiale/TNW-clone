@@ -133,7 +133,7 @@ display: block;
 height: 48px;
 letter-spacing: .04em;
 line-height: 1;
-padding: 18px 9px 0;
+padding: 18px 9px 0 0;
 text-decoration: none;
 }
 
@@ -449,8 +449,6 @@ background-position: 0 0;
     align-items: center;
     width: 100%;
     height: 40%;
-    background: url(../images/os-img-1.jpg) no-repeat;
-    background-size: cover;
 }
 
 .os-s2-child {
@@ -541,8 +539,19 @@ background-color: rgba(255,68,34,.06);
     background-size: cover;
 }
 
+.os-img {
+  height: 270px;
+}
+
+.os-img-1 {
+  background: url(../images/os-img-1.jpg) no-repeat;
+  background-size: cover;
+}
+
+
 .os-img-2 {
 background: url(../images/os-img-2.jpg) no-repeat;
+background-size: cover;
 }
 
 .li-2 {
@@ -550,7 +559,8 @@ background: url(../images/os-img-2.jpg) no-repeat;
     background-size: cover;
 }
 .os-img-3 {
-    background: url(../images/os-img-3.png);
+    background: url(../images/os-img-3.png) no-repeat;
+    background-size: cover;
 }
 
 .li-3 {
@@ -559,7 +569,8 @@ background: url(../images/os-img-2.jpg) no-repeat;
 }
 
 .os-img-4 {
-    background: url(../images/os-img-4.jpg);
+    background: url(../images/os-img-4.jpg) no-repeat;
+    background-size: cover;
 }
 
 .li-4 {
@@ -568,7 +579,8 @@ background: url(../images/os-img-2.jpg) no-repeat;
 }
 
 .os-img-5 {
-    background: url(../images/os-img-5.jpg);
+    background: url(../images/os-img-5.jpg) no-repeat;
+    background-size: cover;
 }
 
 .li-5 {
@@ -577,7 +589,8 @@ background: url(../images/os-img-2.jpg) no-repeat;
 }
 
 .os-img-6 {
-    background: url(../images/os-img-6.jpg);
+    background: url(../images/os-img-6.jpg) no-repeat;
+    background-size: cover;
 }
 
 
@@ -587,7 +600,9 @@ background: url(../images/os-img-2.jpg) no-repeat;
 }
 
 .os-img-7 {
-    background: url(../images/os-img-7.jpg);
+    background: url(../images/os-img-7.jpg) no-repeat;
+    background-size: cover;
+
 }
 
 .li-7 {
@@ -595,7 +610,9 @@ background: url(../images/os-img-2.jpg) no-repeat;
     background-size: cover;
 }
 .os-img-8 {
-    background: url(../images/os-img-8.jpg);
+    background: url(../images/os-img-8.jpg) no-repeat;
+    background-size: cover;
+
 }
 
 .li-8 {
@@ -872,19 +889,3 @@ black-nav-bar dissapears
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
