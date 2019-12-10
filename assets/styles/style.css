@@ -7,10 +7,21 @@ body {
     font-size: 13px;
     overflow-x: hidden;
 }
+a {color: black;}
 .category-heading {
     font-size: 14px;
 }
 
+
+.before-deal {
+    text-decoration: line-through;
+    margin-right: 4px;
+}
+
+.light-black {
+    color: #555;
+    font-weight: bold;
+}
 
 .bcg-black {
     background-color: black;
@@ -59,6 +70,10 @@ body {
 
 .orange-to-black-link:hover {
     color: black;
+}
+
+.black-to-orange-link:hover {
+    color: #ff4422;
 }
 
 .no-decoration {
@@ -264,7 +279,7 @@ background-position: 0 0;
     flex-flow: row wrap;
 }
 
-.latest-news-child {
+.latest-news-child, .latest-deals-child{
     width: calc(280px - 20px);
     padding: 10px;
     display: flex;
@@ -406,7 +421,8 @@ background-position: 0 0;
     flex-direction: column;
 }
 
-.other-sections-container {
+.other-sections-container,
+.flex-container {
     align-items: baseline;
     display: flex;
     flex-flow: row wrap;
@@ -585,7 +601,55 @@ background: url(../images/os-img-2.jpg) no-repeat;
 .li-8 {
     background: url(../images/os-latest-img8.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
 }
+
+
+.title-more-info-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.latest-deals-child {
+    width: calc(300px - 20px);
+    height: calc(295px - 12px);
+}
+
+.ld-1 {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background: url(../images/ld-cover1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.ld-2 {
+    width: 100%;
+    height: 30%;
+}
+
+.ld-ribbon {
+    color: black;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background: url(../images/deal-ribbon.svg) no-repeat;
+    background-size: contain;
+}
+
+.ld-ribbon > div {
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+    left: 20px;
+    transform: rotate(45deg);
+}
+
 /* nav-bar for desktop
 nav-bars: 60% / 40%
 black nav-bar: 2 list childs, justify space-between
