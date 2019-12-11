@@ -289,7 +289,7 @@ a {
 
 .latest-news-child,
 .latest-deals-child {
-  width: calc(33.3% - 20px);
+  width: calc(25% - 20px);
   padding: 10px;
   display: flex;
   flex-flow: row wrap;
@@ -870,9 +870,11 @@ a {
     height: 45%;
   }
 
-  .latest-deals-child {
+  .latest-deals-child,
+  .latest-news-child {
     width: calc(33.3% - 20px);
   }
+  
 }
 
 @media (max-width: 961px) {
