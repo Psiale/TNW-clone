@@ -346,7 +346,7 @@ a {
 
 .funding-titles,
 .fn-1 {
-  padding: 10.6666666667px 0px;
+  padding: 10.6666666667px 0;
 }
 
 .fn-child {
@@ -846,7 +846,7 @@ a {
   }
 
   .fn-child {
-      width: calc(33.3% - 20px) ;
+    width: calc(33.3% - 20px);
   }
 
   .flex-item {
@@ -874,7 +874,6 @@ a {
   .latest-news-child {
     width: calc(33.3% - 20px);
   }
-  
 }
 
 @media (max-width: 961px) {
