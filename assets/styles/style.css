@@ -144,6 +144,10 @@ a {
   text-decoration: none;
 }
 
+.right-list-items {
+  border: 1px solid whitesmoke;
+}
+
 .grid-main-container {
   margin-left: 0.5%;
   width: 99vw;
@@ -483,7 +487,7 @@ a {
 }
 
 .os-title:hover {
-  text-decoration: underline hsla(0, 0, 100%, 0.3);
+  text-decoration: underline rgba(255, 255, 255, 0.3);
 }
 
 .os-title-small {
@@ -725,6 +729,19 @@ a {
   margin: 0 8px;
 }
 
+.footer-links-social > li > a {
+  background: #333;
+  border-radius: 50%;
+  padding: 12px;
+  text-align: center;
+  display: block;
+}
+
+.footer-links-social > li > a:hover {
+  border: #333 solid 2px;
+  background: #131313;
+}
+
 .icons {
   display: block;
   width: 16px;
@@ -767,14 +784,6 @@ a {
   background: url(../images/icons-sprite.svg) -576px -576px;
 }
 
-.footer-links-social > li > a {
-  background: #333;
-  border-radius: 50%;
-  padding: 12px;
-  text-align: center;
-  display: block;
-}
-
 .footer-links-menu {
   display: flex;
   justify-content: center;
@@ -784,6 +793,10 @@ a {
 .footer-links-menu > li {
   list-style: none;
   margin: 0 6px;
+}
+
+.footer-links-menu > li:hover {
+  color: white;
 }
 
 .footer-legal {
@@ -798,6 +811,7 @@ a {
 .ft-logo {
   height: 9px;
 }
+
 @media (min-height: 425px) {
   .title-heading-text {
     font-size: 45px;
