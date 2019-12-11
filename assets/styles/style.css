@@ -39,7 +39,7 @@ a {
 }
 
 .light-grey {
-  color: grey;
+  color: #aaa;
 }
 
 .color-white {
@@ -274,9 +274,12 @@ a {
   font-family: Avalon, sans-serif;
 }
 
-.latest-news-container {
+.wrapper {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.latest-news-container {
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
@@ -308,8 +311,6 @@ a {
 }
 
 .funding-section-container {
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
@@ -429,8 +430,6 @@ a {
   align-items: baseline;
   display: flex;
   flex-flow: row wrap;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .os-child {
@@ -623,8 +622,6 @@ a {
 
 .title-more-info-container {
   display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
 }
@@ -704,6 +701,103 @@ a {
   transform: rotate(45deg);
 }
 
+.footer {
+  width: 100%;
+  background-color: #131313;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 0 2em;
+}
+
+.footer-links-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.footer-links-social > li {
+  list-style: none;
+  margin: 0 8px;
+}
+
+.icons {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.footer-legal > span > b {
+  color: #f42;
+}
+
+.i-search {
+  background: url(../images/icons-sprite.svg) -832px -832px;
+}
+
+.i-facebook {
+  background: url(../images/icons-sprite.svg) -272px -272px;
+}
+
+.i-twitter {
+  background: url(../images/icons-sprite.svg) -1024px -1024px;
+}
+
+.i-youtube {
+  background: url(../images/icons-sprite.svg) -1280px -1280px;
+}
+
+.i-instagram {
+  background: url(../images/icons-sprite.svg) -416px -416px;
+}
+
+.i-pinterest {
+  background: url(../images/icons-sprite.svg) -672px -672px;
+}
+
+.i-rss {
+  background: url(../images/icons-sprite.svg) -816px -816px;
+}
+
+.i-email {
+  background: url(../images/icons-sprite.svg) -576px -576px;
+}
+
+.footer-links-social > li > a {
+  background: #333;
+  border-radius: 50%;
+  padding: 12px;
+  text-align: center;
+  display: block;
+}
+
+.footer-links-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links-menu > li {
+  list-style: none;
+  margin: 0 6px;
+}
+
+.footer-legal {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 3em 0;
+  background-color: #000;
+}
+
+.ft-logo {
+  height: 9px;
+}
 @media (min-height: 425px) {
   .title-heading-text {
     font-size: 45px;
@@ -923,5 +1017,9 @@ a {
 
   .os-s2 {
     height: 80%;
+  }
+
+  .footer-legal {
+    flex-direction: column;
   }
 }
