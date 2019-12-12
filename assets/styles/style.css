@@ -438,7 +438,7 @@ a {
 
 .os-child {
   width: calc(33% - 15px);
-  margin-right: 10px;
+  margin: 0 9px;
   display: flex;
   flex-flow: row wrap;
 }
@@ -868,6 +868,7 @@ a {
 
   .os-child {
     width: calc(50% - 20px);
+    margin: 0 10px;
   }
 
   .os-s2 {
@@ -1030,7 +1031,7 @@ a {
 
   .other-sections-container {
     flex-flow: column wrap;
-    padding: 20px;
+    padding: 0 20px 0 0;
   }
 
   .os-child {
