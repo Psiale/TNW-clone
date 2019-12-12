@@ -12,6 +12,10 @@ a {
   color: black;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 .category-heading {
   font-size: 14px;
 }
@@ -64,7 +68,7 @@ a {
 }
 
 .small-article-text {
-  font-size: 22px;
+  font-size: 14.5px;
 }
 
 .desktop-logo {
@@ -148,8 +152,7 @@ a {
 }
 
 .grid-main-container {
-  margin-left: 0.5%;
-  width: 99vw;
+  width: 100vw;
   height: 75vh;
   display: grid;
   padding-top: 8px;
@@ -716,6 +719,7 @@ a {
 
 .footer-links-social {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 0 0 14px 0;
@@ -783,10 +787,10 @@ a {
 
 .footer-links-menu {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 0;
-  margin: 0;
 }
 
 .footer-links-menu > li {
@@ -985,7 +989,7 @@ a {
   }
 
   .ld-2 {
-    flex-flow: column wrap;
+    flex-flow: row rap;
   }
 
   .ln-subtitle {
@@ -1039,5 +1043,9 @@ a {
 
   .footer-legal {
     flex-direction: column;
+  }
+
+  .footer-links-social > li {
+    margin: 0 2px;
   }
 }
