@@ -7,7 +7,7 @@
 
 * [The purpouse of this webpage](#The-purpouse-of-this-webpage)
 * [Built With](#built-with)
-* [Credits](#contact)
+* [Author](#author)
 * [Live Demo](#Live-Version)
 <br>
 
@@ -18,8 +18,13 @@ Media queries and a lot of Flex.
 
 
 
-# Credits
-### https://github.com/Psiale
+# Author
+
+👤 **Alexis Sanchez**
+
+- Github: [Alexis Sanchez](https://github.com/Psiale)
+- Twitter: [Alexis Sanchez](https://twitter.com/TFH_)
+- Linkedin: [Alexis Sanchez](https://www.linkedin.com/in/alexis-sanchez-dev/)
 
 # Live Version
 
