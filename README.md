@@ -5,7 +5,6 @@
 ![screenshot](assets/images/TNW2.png)
 ![screenshot](assets/images/TNW3.png)
 
-* [The purpouse of this webpage](#The-purpouse-of-this-webpage)
 * [Built With](#built-with)
 * [Author](#author)
 * [Live Demo](#Live-Version)
